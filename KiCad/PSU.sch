@@ -1,0 +1,639 @@
+EESchema Schematic File Version 4
+LIBS:uDSP-1.0-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 6
+Title "uDSP"
+Date "2019-03-11"
+Rev "1.0"
+Comp "Open Hardware DSP Platform - www.ohdsp.org"
+Comment1 "MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE."
+Comment2 "is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF"
+Comment3 "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL). This documentation"
+Comment4 "Copyright Paul Janicki 2019"
+$EndDescr
+$Comp
+L power:GNDD #PWR0310
+U 1 1 54DA1946
+P 9000 2200
+F 0 "#PWR0310" H 9000 1950 60  0001 C CNN
+F 1 "GNDD" H 9000 2050 60  0000 C CNN
+F 2 "" H 9000 2200 60  0000 C CNN
+F 3 "" H 9000 2200 60  0000 C CNN
+	1    9000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0302
+U 1 1 54DB050F
+P 7600 1550
+F 0 "#FLG0302" H 7600 1645 30  0001 C CNN
+F 1 "PWR_FLAG" H 7600 1730 30  0000 C CNN
+F 2 "" H 7600 1550 60  0000 C CNN
+F 3 "" H 7600 1550 60  0000 C CNN
+	1    7600 1550
+	1    0    0    -1  
+$EndComp
+Text Notes 700  1050 0    118  ~ 0
+Power Supply
+$Comp
+L power:VCC #PWR0304
+U 1 1 5C7F9D28
+P 3900 1100
+F 0 "#PWR0304" H 3900 950 60  0001 C CNN
+F 1 "VCC" H 3900 1250 60  0000 C CNN
+F 2 "" H 3900 1100 60  0000 C CNN
+F 3 "" H 3900 1100 60  0000 C CNN
+	1    3900 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0301
+U 1 1 5C7F9D29
+P 5400 1550
+F 0 "#FLG0301" H 5400 1645 30  0001 C CNN
+F 1 "PWR_FLAG" H 5400 1730 30  0000 C CNN
+F 2 "" H 5400 1550 60  0000 C CNN
+F 3 "" H 5400 1550 60  0000 C CNN
+	1    5400 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0301
+U 1 1 5C7F9D23
+P 1250 1800
+F 0 "#PWR0301" H 1250 1550 60  0001 C CNN
+F 1 "GNDD" H 1250 1650 60  0000 C CNN
+F 2 "" H 1250 1800 60  0000 C CNN
+F 3 "" H 1250 1800 60  0000 C CNN
+	1    1250 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0303
+U 1 1 5C7F9D24
+P 3700 2150
+F 0 "#PWR0303" H 3700 1900 60  0001 C CNN
+F 1 "GNDD" H 3700 2000 60  0000 C CNN
+F 2 "" H 3700 2150 60  0000 C CNN
+F 3 "" H 3700 2150 60  0000 C CNN
+	1    3700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0302
+U 1 1 5C7F9D25
+P 3250 2600
+F 0 "#PWR0302" H 3250 2350 60  0001 C CNN
+F 1 "GNDD" H 3250 2450 60  0000 C CNN
+F 2 "" H 3250 2600 60  0000 C CNN
+F 3 "" H 3250 2600 60  0000 C CNN
+	1    3250 2600
+	1    0    0    -1  
+$EndComp
+Text Notes 800  1350 0    60   ~ 0
+5V Input\n
+$Comp
+L MyKiCadLibs-Lib:LED D302
+U 1 1 54E5948E
+P 10300 5750
+F 0 "D302" H 10300 5850 50  0000 C CNN
+F 1 "LED 0603" H 10300 5950 50  0000 C CNN
+F 2 "MyKiCadLibs-Footprints:SMD-0603-LED" H 10300 5750 60  0001 C CNN
+F 3 "" H 10300 5750 60  0000 C CNN
+F 4 "0603" H 10300 5750 60  0001 C CNN "Size"
+F 5 "LED - SMD - Vf 1.8V to 2.2V" H 10300 5750 60  0001 C CNN "Description"
+	1    10300 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR0307
+U 1 1 5C7F9D27
+P 10300 6000
+F 0 "#PWR0307" H 10300 5750 60  0001 C CNN
+F 1 "GNDD" H 10300 5850 60  0000 C CNN
+F 2 "" H 10300 6000 60  0000 C CNN
+F 3 "" H 10300 6000 60  0000 C CNN
+	1    10300 6000
+	1    0    0    -1  
+$EndComp
+Text Notes 9200 1600 0    60   ~ 0
+3V3 Supply
+$Comp
+L power:GNDD #PWR0305
+U 1 1 54DA133C
+P 5700 2250
+F 0 "#PWR0305" H 5700 2000 60  0001 C CNN
+F 1 "GNDD" H 5700 2100 60  0000 C CNN
+F 2 "" H 5700 2250 60  0000 C CNN
+F 3 "" H 5700 2250 60  0000 C CNN
+	1    5700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:MNT_HOLE MNT301
+U 1 1 56E77C6A
+P 800 7350
+F 0 "MNT301" H 800 7450 60  0000 C CNN
+F 1 "MNT_HOLE" H 800 7450 60  0001 C CNN
+F 2 "MyKiCadLibs-Footprints:MNT_HOLE_3.2mm" H 800 7450 60  0001 C CNN
+F 3 "" H 800 7450 60  0000 C CNN
+F 4 "3.2mm mounting hole" H 800 7350 60  0001 C CNN "Description"
+	1    800  7350
+	1    0    0    -1  
+$EndComp
+Text Notes 600  7150 0    60   ~ 0
+Mounting Holes and Fiducials
+$Comp
+L MyKiCadLibs-Lib:IC-REG-1117 U301
+U 1 1 56E95C33
+P 6250 1550
+F 0 "U301" H 6450 1800 60  0000 C CNN
+F 1 "TLV1117LV33DCY" H 6700 1700 60  0000 C CNN
+F 2 "MyKiCadLibs-Footprints:IC-SOT-223" H 6250 1550 60  0001 C CNN
+F 3 "" H 6250 1550 60  0000 C CNN
+F 4 "TLV1117LV 1-A, Positive Fixed-Voltage, Low-Dropout Regulator - Fixed 3V3" H 6250 1550 60  0001 C CNN "Description"
+	1    6250 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1950 6700 2150
+Connection ~ 8400 2150
+Wire Wire Line
+	8400 2150 8400 2050
+Connection ~ 8400 1550
+Wire Wire Line
+	8400 1550 8400 1650
+Connection ~ 7250 1550
+Wire Wire Line
+	7250 1150 7250 1550
+Wire Wire Line
+	7100 1150 7250 1150
+Connection ~ 5850 1550
+Wire Wire Line
+	5850 1550 5850 1150
+Wire Wire Line
+	5850 1150 6700 1150
+Connection ~ 9000 2150
+Connection ~ 9000 1550
+Wire Wire Line
+	9000 1550 9000 1650
+Wire Wire Line
+	9000 2150 9000 2050
+Wire Wire Line
+	9000 2150 9000 2200
+Wire Wire Line
+	6000 1550 6000 1700
+Wire Wire Line
+	5700 1550 5700 1700
+Connection ~ 6000 1550
+Connection ~ 5700 1550
+Wire Wire Line
+	7150 1550 7250 1550
+Wire Wire Line
+	7450 1550 7600 1550
+Wire Wire Line
+	5700 2100 5700 2200
+Wire Wire Line
+	6000 2200 6000 2100
+Connection ~ 5700 2200
+Wire Wire Line
+	5700 2200 6000 2200
+Wire Wire Line
+	1250 1650 1250 1800
+Wire Wire Line
+	2150 1550 2400 1550
+Wire Wire Line
+	9000 1550 9000 1500
+Connection ~ 5400 1550
+Connection ~ 7600 1550
+Wire Wire Line
+	10300 4900 10300 4950
+Wire Wire Line
+	10300 6000 10300 5950
+Wire Wire Line
+	10300 5450 10300 5550
+Wire Wire Line
+	1250 1650 1200 1650
+Wire Wire Line
+	3250 2600 3250 2550
+Connection ~ 3250 1550
+Wire Wire Line
+	3250 1550 3250 1600
+Connection ~ 3700 1550
+Wire Wire Line
+	3700 1550 3700 1650
+Connection ~ 3900 1550
+Wire Wire Line
+	3900 1550 3900 1100
+Wire Wire Line
+	1200 1550 1750 1550
+Connection ~ 7450 2150
+Connection ~ 7700 2150
+Wire Wire Line
+	7450 2150 7450 2050
+Wire Wire Line
+	7700 2150 7700 2050
+Connection ~ 7700 1550
+Wire Wire Line
+	7700 1550 7700 1650
+Connection ~ 7450 1550
+Wire Wire Line
+	7450 1550 7450 1650
+Wire Wire Line
+	6700 2150 7450 2150
+$Comp
+L MyKiCadLibs-Lib:MNT_HOLE FID301
+U 1 1 56E9E8FD
+P 1600 7350
+F 0 "FID301" H 1600 7450 60  0000 C CNN
+F 1 "MNT_HOLE" H 1600 7450 60  0001 C CNN
+F 2 "MyKiCadLibs-Footprints:FID-1MM-3MM" H 1600 7450 60  0001 C CNN
+F 3 "" H 1600 7450 60  0000 C CNN
+F 4 "1mm fiducial" H 1600 7350 60  0001 C CNN "Description"
+	1    1600 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:INDUCTOR L301
+U 1 1 571725F8
+P 2700 1550
+F 0 "L301" V 2650 1550 40  0000 C CNN
+F 1 "600R@100MHz" V 2800 1550 40  0000 C CNN
+F 2 "MyKiCadLibs-Footprints:SMD-0805" H 2700 1550 60  0001 C CNN
+F 3 "" H 2700 1550 60  0000 C CNN
+F 4 "=>2A" V 2850 1550 40  0000 C CNN "Current"
+F 5 "Ferrite bead, current rating 1A or higher, 600R@100MHz" V 2900 1600 40  0001 C CNN "Description"
+F 6 "0805" V 2700 1550 60  0001 C CNN "Size"
+	1    2700 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:CONN_2x1 P301
+U 1 1 57182425
+P 1200 1550
+F 0 "P301" V 1695 1395 40  0000 C CNN
+F 1 "CONN_2x1" V 1640 1510 40  0000 C CNN
+F 2 "MyKiCadLibs-Footprints:CONN-2WAY-2.54mm-3.81mm-SPACING" H 1540 1440 60  0001 C CNN
+F 3 "" H 1540 1440 60  0000 C CNN
+F 4 "2 way screw terminal, any 2.54mm to 3.81mm pitch part" H 1450 1300 40  0001 C CNN "Description"
+	1    1200 1550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:C C303
+U 1 1 5714D585
+P 5700 1900
+F 0 "C303" H 5700 2000 40  0000 L CNN
+F 1 "22u" H 5710 1815 40  0000 L CNN
+F 2 "MyKiCadLibs-Footprints:SMD-0805" H 5738 1750 30  0001 C CNN
+F 3 "" H 5700 2000 60  0000 C CNN
+F 4 "25V" H 5765 1750 40  0000 C CNN "Voltage"
+F 5 "X5R" H 5770 1675 40  0000 C CNN "Type"
+F 6 "Ceramic capacitor" H 5700 2200 40  0001 L CNN "Description"
+F 7 "20%" H 6100 2400 40  0001 C CNN "Tolerance"
+F 8 "0805" H 5700 1900 60  0001 C CNN "Size"
+	1    5700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:R R302
+U 1 1 570E4DCF
+P 10300 5200
+F 0 "R302" V 10220 5200 40  0000 C CNN
+F 1 "470" V 10307 5201 40  0000 C CNN
+F 2 "MyKiCadLibs-Footprints:SMD-0603" V 10230 5200 30  0001 C CNN
+F 3 "" V 10220 5200 30  0000 C CNN
+F 4 "63mW" V 10400 5200 40  0001 C CNN "Power"
+F 5 "Thick or thin film resistor" V 10545 5200 40  0001 C CNN "Description"
+F 6 "0603" V 10475 5200 40  0001 C CNN "Size"
+F 7 "1%" V 10625 5200 40  0001 C CNN "Tolerance"
+	1    10300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:SCHOTTKY_DIODE D301
+U 1 1 57194B07
+P 1950 1550
+F 0 "D301" H 1950 1650 40  0000 C CNN
+F 1 "B240A" H 1950 1450 40  0000 C CNN
+F 2 "MyKiCadLibs-Footprints:DIODE-SMA" H 1950 1550 60  0001 C CNN
+F 3 "~" H 1950 1550 60  0000 C CNN
+F 4 "B240A 2A 40V Schottky Rectifier - SMA (DO-214AC)" H 1950 1550 60  0001 C CNN "Description"
+	1    1950 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:MNT_HOLE MNT303
+U 1 1 5C7F9D3F
+P 1200 7350
+F 0 "MNT303" H 1200 7450 60  0000 C CNN
+F 1 "MNT_HOLE" H 1200 7450 60  0001 C CNN
+F 2 "MyKiCadLibs-Footprints:MNT_HOLE_3.2mm" H 1200 7450 60  0001 C CNN
+F 3 "" H 1200 7450 60  0000 C CNN
+F 4 "3.2mm mounting hole" H 1200 7350 60  0001 C CNN "Description"
+	1    1200 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:MNT_HOLE MNT302
+U 1 1 5727A361
+P 800 7600
+F 0 "MNT302" H 800 7700 60  0000 C CNN
+F 1 "MNT_HOLE" H 800 7700 60  0001 C CNN
+F 2 "MyKiCadLibs-Footprints:MNT_HOLE_3.2mm" H 800 7700 60  0001 C CNN
+F 3 "" H 800 7700 60  0000 C CNN
+F 4 "3.2mm mounting hole" H 800 7600 60  0001 C CNN "Description"
+	1    800  7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:MNT_HOLE MNT304
+U 1 1 5727A63C
+P 1200 7600
+F 0 "MNT304" H 1200 7700 60  0000 C CNN
+F 1 "MNT_HOLE" H 1200 7700 60  0001 C CNN
+F 2 "MyKiCadLibs-Footprints:MNT_HOLE_3.2mm" H 1200 7700 60  0001 C CNN
+F 3 "" H 1200 7700 60  0000 C CNN
+F 4 "3.2mm mounting hole" H 1200 7600 60  0001 C CNN "Description"
+	1    1200 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:MNT_HOLE FID303
+U 1 1 5727AC23
+P 2000 7350
+F 0 "FID303" H 2000 7450 60  0000 C CNN
+F 1 "MNT_HOLE" H 2000 7450 60  0001 C CNN
+F 2 "MyKiCadLibs-Footprints:FID-1MM-3MM" H 2000 7450 60  0001 C CNN
+F 3 "" H 2000 7450 60  0000 C CNN
+F 4 "1mm fiducial" H 2000 7350 60  0001 C CNN "Description"
+	1    2000 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:MNT_HOLE FID302
+U 1 1 5727AF05
+P 1600 7600
+F 0 "FID302" H 1600 7700 60  0000 C CNN
+F 1 "MNT_HOLE" H 1600 7700 60  0001 C CNN
+F 2 "MyKiCadLibs-Footprints:FID-1MM-3MM" H 1600 7700 60  0001 C CNN
+F 3 "" H 1600 7700 60  0000 C CNN
+F 4 "1mm fiducial" H 1600 7600 60  0001 C CNN "Description"
+	1    1600 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:MNT_HOLE FID304
+U 1 1 5727B1E9
+P 2000 7600
+F 0 "FID304" H 2000 7700 60  0000 C CNN
+F 1 "MNT_HOLE" H 2000 7700 60  0001 C CNN
+F 2 "MyKiCadLibs-Footprints:FID-1MM-3MM" H 2000 7700 60  0001 C CNN
+F 3 "" H 2000 7700 60  0000 C CNN
+F 4 "1mm fiducial" H 2000 7600 60  0001 C CNN "Description"
+	1    2000 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0311
+U 1 1 5C7F9D45
+P 9000 1500
+F 0 "#PWR0311" H 9000 1350 50  0001 C CNN
+F 1 "+3V3" H 9000 1640 50  0000 C CNN
+F 2 "" H 9000 1500 50  0001 C CNN
+F 3 "" H 9000 1500 50  0001 C CNN
+	1    9000 1500
+	1    0    0    -1  
+$EndComp
+Text Notes 6650 3500 0    60   ~ 0
+3V3 Power\nADAU1452 415mA max program allowance\n300mA for everything else\n\nVdrop 2.2V with 5.5V input\nPower dissipation = 0.72A*2.2V = 1.6W\nTemperature rise = 63C/W * 1.6W = 100C\n\nVdrop 1.7V with 5V input\nPower dissipation = 0.72A*1.7V = 1.2W\nTemperature rise = 63C/W * 1.6W = 75C\n\nExcluding PCB copper heatsink effect\n
+Text Notes 800  1450 0    60   ~ 0
+4.85V to 5.5V max
+$Comp
+L MyKiCadLibs-Lib:DIODE_1N5819HW D303
+U 1 1 59B6C4C4
+P 6900 1150
+F 0 "D303" H 6900 1250 40  0000 C CNN
+F 1 "1N5819HW" H 6900 1050 40  0000 C CNN
+F 2 "MyKiCadLibs-Footprints:DIODE-SOD-123" H 6900 850 60  0001 C CNN
+F 3 "" H 6900 1150 60  0000 C CNN
+F 4 "1A 40V Schottky Rectifier - SOD-123" H 6900 950 40  0001 C CNN "Description"
+	1    6900 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:DIODE_1N5819HW D304
+U 1 1 59B6CC6A
+P 8400 1850
+F 0 "D304" H 8400 1950 40  0000 C CNN
+F 1 "1N5819HW" H 8400 1750 40  0000 C CNN
+F 2 "MyKiCadLibs-Footprints:DIODE-SOD-123" H 8400 1550 60  0001 C CNN
+F 3 "" H 8400 1850 60  0000 C CNN
+F 4 "1A 40V Schottky Rectifier - SOD-123" H 8400 1650 40  0001 C CNN "Description"
+	1    8400 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7250 1550 7450 1550
+Wire Wire Line
+	5850 1550 6000 1550
+Wire Wire Line
+	6000 1550 6250 1550
+Wire Wire Line
+	5700 1550 5850 1550
+Wire Wire Line
+	5700 2200 5700 2250
+Wire Wire Line
+	5400 1550 5700 1550
+Wire Wire Line
+	7600 1550 7700 1550
+Wire Wire Line
+	3250 1550 3000 1550
+Wire Wire Line
+	3700 1550 3250 1550
+Wire Wire Line
+	3900 1550 3700 1550
+Wire Wire Line
+	7450 2150 7700 2150
+Wire Wire Line
+	3900 1550 5400 1550
+Wire Wire Line
+	3700 2050 3700 2150
+Wire Wire Line
+	7700 1550 8400 1550
+Wire Wire Line
+	7700 2150 8400 2150
+Wire Wire Line
+	3250 2100 3250 2150
+$Comp
+L MyKiCadLibs-Lib:C C?
+U 1 1 5C763E2B
+P 3250 2350
+AR Path="/54BE4270/5C763E2B" Ref="C?"  Part="1" 
+AR Path="/54DA50D9/5C763E2B" Ref="C301"  Part="1" 
+F 0 "C301" H 3250 2450 40  0000 L CNN
+F 1 "100p" H 3260 2265 40  0000 L CNN
+F 2 "MyKiCadLibs-Footprints:SMD-0603" H 3288 2200 30  0001 C CNN
+F 3 "" H 3250 2450 60  0000 C CNN
+F 4 "50V" H 3265 2195 40  0000 L CNN "Voltage"
+F 5 "NP0" H 3265 2125 40  0000 L CNN "Type"
+F 6 "Ceramic capacitor" H 3250 2650 40  0001 L CNN "Description"
+F 7 "5%" H 3320 1985 40  0001 C CNN "Tolerance"
+F 8 "0603" H 3260 2055 40  0001 L CNN "Size"
+	1    3250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:R R?
+U 1 1 5C763E36
+P 3250 1850
+AR Path="/54BE4270/5C763E36" Ref="R?"  Part="1" 
+AR Path="/54DA50D9/5C763E36" Ref="R301"  Part="1" 
+F 0 "R301" V 3350 1850 40  0000 C CNN
+F 1 "47" V 3257 1851 40  0000 C CNN
+F 2 "MyKiCadLibs-Footprints:SMD-0603" V 3180 1850 30  0001 C CNN
+F 3 "" V 3170 1850 30  0000 C CNN
+F 4 "63mW" V 3350 1850 40  0001 C CNN "Power"
+F 5 "Thick or thin film resistor" V 3495 1850 40  0001 C CNN "Description"
+F 6 "0603" V 3425 1850 40  0001 C CNN "Size"
+F 7 "1%" V 3575 1850 40  0001 C CNN "Tolerance"
+	1    3250 1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:CP1 C?
+U 1 1 5C7FE185
+P 3700 1850
+AR Path="/54BE4270/5C7FE185" Ref="C?"  Part="1" 
+AR Path="/54DA50D9/5C7FE185" Ref="C302"  Part="1" 
+F 0 "C302" H 3750 1950 50  0000 L CNN
+F 1 "10u" H 3750 1750 50  0000 L CNN
+F 2 "MyKiCadLibs-Footprints:CAP-SMD-SIZE-B" H 3700 1850 60  0001 C CNN
+F 3 "" H 3700 1850 60  0000 C CNN
+F 4 "10V" H 3755 1665 50  0000 L CNN "Voltage"
+F 5 "Case B SMD Aluminium Electrolytic" H 3700 2150 40  0001 L CNN "Type"
+F 6 "Low impedance aluminium electrolytic capacitor - Panasonic FP, FK or Similar" H 3700 2250 40  0001 L CNN "Description"
+	1    3700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:C C?
+U 1 1 5C801F40
+P 6000 1900
+AR Path="/54BE4270/5C801F40" Ref="C?"  Part="1" 
+AR Path="/54DA50D9/5C801F40" Ref="C304"  Part="1" 
+F 0 "C304" H 6000 2000 40  0000 L CNN
+F 1 "100n" H 6010 1815 40  0000 L CNN
+F 2 "MyKiCadLibs-Footprints:SMD-0603" H 6038 1750 30  0001 C CNN
+F 3 "" H 6000 2000 60  0000 C CNN
+F 4 "50V" H 6015 1745 40  0000 L CNN "Voltage"
+F 5 "X7R" H 6015 1675 40  0000 L CNN "Type"
+F 6 "Ceramic capacitor" H 6000 2200 40  0001 L CNN "Description"
+F 7 "10%" H 6070 1535 40  0001 C CNN "Tolerance"
+F 8 "0603" H 6010 1605 40  0001 L CNN "Size"
+	1    6000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:C C?
+U 1 1 5C804FDD
+P 7450 1850
+AR Path="/54BE4270/5C804FDD" Ref="C?"  Part="1" 
+AR Path="/54DA50D9/5C804FDD" Ref="C305"  Part="1" 
+F 0 "C305" H 7450 1950 40  0000 L CNN
+F 1 "100n" H 7460 1765 40  0000 L CNN
+F 2 "MyKiCadLibs-Footprints:SMD-0603" H 7488 1700 30  0001 C CNN
+F 3 "" H 7450 1950 60  0000 C CNN
+F 4 "50V" H 7465 1695 40  0000 L CNN "Voltage"
+F 5 "X7R" H 7465 1625 40  0000 L CNN "Type"
+F 6 "Ceramic capacitor" H 7450 2150 40  0001 L CNN "Description"
+F 7 "10%" H 7520 1485 40  0001 C CNN "Tolerance"
+F 8 "0603" H 7460 1555 40  0001 L CNN "Size"
+	1    7450 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 1550 8750 1550
+Wire Wire Line
+	8400 2150 8750 2150
+$Comp
+L MyKiCadLibs-Lib:C C?
+U 1 1 5C80B9CF
+P 8750 1850
+AR Path="/54BE4270/5C80B9CF" Ref="C?"  Part="1" 
+AR Path="/54DA50D9/5C80B9CF" Ref="C307"  Part="1" 
+F 0 "C307" H 8750 1950 40  0000 L CNN
+F 1 "100n" H 8760 1765 40  0000 L CNN
+F 2 "MyKiCadLibs-Footprints:SMD-0603" H 8788 1700 30  0001 C CNN
+F 3 "" H 8750 1950 60  0000 C CNN
+F 4 "50V" H 8765 1695 40  0000 L CNN "Voltage"
+F 5 "X7R" H 8765 1625 40  0000 L CNN "Type"
+F 6 "Ceramic capacitor" H 8750 2150 40  0001 L CNN "Description"
+F 7 "10%" H 8820 1485 40  0001 C CNN "Tolerance"
+F 8 "0603" H 8760 1555 40  0001 L CNN "Size"
+	1    8750 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 1650 8750 1550
+Connection ~ 8750 1550
+Wire Wire Line
+	8750 1550 9000 1550
+Wire Wire Line
+	8750 2050 8750 2150
+Connection ~ 8750 2150
+Wire Wire Line
+	8750 2150 9000 2150
+$Comp
+L power:+3V3 #PWR0108
+U 1 1 5C92FA30
+P 10300 4900
+F 0 "#PWR0108" H 10300 4750 50  0001 C CNN
+F 1 "+3V3" H 10300 5040 50  0000 C CNN
+F 2 "" H 10300 4900 50  0001 C CNN
+F 3 "" H 10300 4900 50  0001 C CNN
+	1    10300 4900
+	1    0    0    -1  
+$EndComp
+Text Notes 9850 4650 0    118  ~ 0
+Power LED
+$Comp
+L MyKiCadLibs-Lib:C C?
+U 1 1 5C814EC5
+P 7700 1850
+AR Path="/54BE4270/5C814EC5" Ref="C?"  Part="1" 
+AR Path="/54DA50D9/5C814EC5" Ref="C306"  Part="1" 
+F 0 "C306" H 7700 1950 40  0000 L CNN
+F 1 "22u" H 7710 1765 40  0000 L CNN
+F 2 "MyKiCadLibs-Footprints:SMD-0603" H 7738 1700 30  0001 C CNN
+F 3 "" H 7700 1950 60  0000 C CNN
+F 4 "10V" H 7715 1695 40  0000 L CNN "Voltage"
+F 5 "X5R" H 7715 1625 40  0000 L CNN "Type"
+F 6 "Ceramic capacitor" H 7700 2150 40  0001 L CNN "Description"
+F 7 "20%" H 7770 1485 40  0001 C CNN "Tolerance"
+F 8 "0603" H 7710 1555 40  0001 L CNN "Size"
+	1    7700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyKiCadLibs-Lib:C C?
+U 1 1 5C815D5E
+P 9000 1850
+AR Path="/54BE4270/5C815D5E" Ref="C?"  Part="1" 
+AR Path="/54DA50D9/5C815D5E" Ref="C310"  Part="1" 
+F 0 "C310" H 9000 1950 40  0000 L CNN
+F 1 "10u" H 9010 1765 40  0000 L CNN
+F 2 "MyKiCadLibs-Footprints:SMD-0603" H 9038 1700 30  0001 C CNN
+F 3 "" H 9000 1950 60  0000 C CNN
+F 4 "10V" H 9015 1695 40  0000 L CNN "Voltage"
+F 5 "X5R" H 9015 1625 40  0000 L CNN "Type"
+F 6 "Ceramic capacitor" H 9000 2150 40  0001 L CNN "Description"
+F 7 "20%" H 9070 1485 40  0001 C CNN "Tolerance"
+F 8 "0603" H 9010 1555 40  0001 L CNN "Size"
+	1    9000 1850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
