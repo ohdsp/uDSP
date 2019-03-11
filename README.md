@@ -69,7 +69,9 @@ The standard setup is:
 | 2 | Ticked | MyKiCadLibs-Lib | ${KIPRJMOD}/../../../KiCad-Libs/MyKiCadLibs-Lib.lib | Legacy      | (blank) | (blank)     |
 
 ${KICAD_SYMBOL_DIR}  is set under the Enviromnet Variable Configuration. Close Symbol Libraries dialogue and go "Preferences" -> "Configure Paths..."
+
 ${KICAD_SYMBOL_DIR} is set to C:\Program Files\KiCad\share\kicad\library - this is the default for a KiCad install on the C drive
+
 ${KIPRJMOD} is automatically set to the location of the project (.pro file), in this example this would be C:\Electronics\OHDSP\uDSP\KiCad
 
 
