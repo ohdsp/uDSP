@@ -62,6 +62,7 @@ From KiCad main window go to menu Tools -> Edit Schematic Symbols. In the new Wi
 
 On the new "Symbol Libraries" window select the "Project Specific Libraries" tab. The "Append Library" and "Remove Library" buttons can be used to add/remove enteries.
 The standard setup is:
+
 |   | Active | Nickname        | Library Path                                        | Plugin Type | Options | Description |
 |---|--------|-----------------|-----------------------------------------------------|-------------|---------|-------------|
 | 1 | Ticked | power           | ${KICAD_SYMBOL_DIR}/power.lib                       | Legacy      | (blank) | (blank)     |
@@ -77,6 +78,7 @@ From KiCad main window go to menu Tools -> Edit PCB Footprints. In the new Windo
 
 On the new "Symbol Libraries" window select the "Project Specific Libraries" tab. The "Append Library" and "Remove Library" buttons can be used to add/remove enteries.
 The standard setup is:
+
 |   | Active | Nickname               | Library Path                                                  | Plugin Type | Options | Description |
 |---|--------|------------------------|---------------------------------------------------------------|-------------|---------|-------------|
 | 1 | Ticked | MyKiCadLibs-Footprints | ${KIPRJMOD}/../../../KiCad-Libs/MyKiCadLibs-Footprints.pretty | KiCad       | (blank) | (blank)     |
