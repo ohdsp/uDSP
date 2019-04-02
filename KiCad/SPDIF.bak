@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:uDSP-cache
-EELAYER 26 0
+LIBS:uDSP-1.1-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
 Title "uDSP"
-Date "2019-03-11"
-Rev "1.0"
+Date "2019-03-17"
+Rev "1.1"
 Comp "Open Hardware DSP Platform - www.ohdsp.org"
 Comment1 "MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE."
 Comment2 "is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF"
@@ -47,7 +47,7 @@ F 3 "" H 1550 2700 60  0000 C CNN
 	1    1550 2700
 	1    0    0    -1  
 $EndComp
-Text Notes 850  950  0    118  ~ 0
+Text Notes 850  950  0    118  ~ 6
 SPDIF Optical Input and Output - Mounted off-board
 $Comp
 L power:GNDD #PWR0406
@@ -60,11 +60,11 @@ F 3 "" H 7100 3150 60  0000 C CNN
 	1    7100 3150
 	1    0    0    -1  
 $EndComp
-Text Notes 8000 2650 2    60   ~ 0
+Text Notes 8000 2650 2    60   ~ 6
 Optical Input
-Text HLabel 5200 3000 0    60   Output ~ 0
+Text HLabel 5200 3000 0    60   Output ~ 6
 SPDIF_RX
-Text HLabel 5750 5300 0    60   Input ~ 0
+Text HLabel 5750 5300 0    60   Input ~ 6
 SPDIF_TX
 Wire Wire Line
 	6500 1950 6500 2200
@@ -96,7 +96,7 @@ Wire Wire Line
 	5200 3000 5450 3000
 Wire Wire Line
 	5850 5300 5750 5300
-Text Notes 7700 5100 2    60   ~ 0
+Text Notes 7700 5100 2    60   ~ 6
 Optical Output
 $Comp
 L power:+3V3 #PWR0401
@@ -109,7 +109,7 @@ F 3 "" H 800 1400 50  0001 C CNN
 	1    800  1400
 	1    0    0    -1  
 $EndComp
-Text Label 3350 1550 0    60   ~ 0
+Text Label 3350 1550 0    60   ~ 6
 SPDIF_3V3
 Wire Wire Line
 	1550 2650 1550 2700

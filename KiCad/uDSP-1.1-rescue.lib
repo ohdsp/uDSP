@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# COAX-DSP-ADAU1452-rescue
+#
+DEF COAX-DSP-ADAU1452-rescue CN 0 40 Y Y 1 F N
+F0 "CN" 50 200 60 H V C CNN
+F1 "COAX-DSP-ADAU1452-rescue" 50 100 60 H V C CNN
+F2 "" -50 0 60 H I C CNN
+F3 "" -50 0 60 H V C CNN
+F4 "Text description" 150 300 60 H V C CNN "Description"
+DRAW
+C 150 0 10 0 1 10 F
+C 150 0 50 0 1 10 N
+X ~ 1 0 0 146 R 50 50 1 1 I
+X ~ 2 150 -150 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,3431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>F:\Dropbox\OHDSP\DEV-uDSP\KiCad\uDSP-1.1.sch</source>
+    <date>02/04/2019 22:06:02</date>
+    <tool>Eeschema (5.1.0)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>uDSP</title>
+        <company>Open Hardware DSP Platform - www.ohdsp.org</company>
+        <rev>1.1</rev>
+        <date>2019-03-17</date>
+        <source>uDSP-1.1.sch</source>
+        <comment number="1" value="MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE."/>
+        <comment number="2" value="is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF"/>
+        <comment number="3" value="Licensed under the TAPR Open Hardware License (www.tapr.org/OHL). This documentation"/>
+        <comment number="4" value="Copyright Paul Janicki 2019"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/DSP/" tstamps="/54BE4270/">
+      <title_block>
+        <title>uDSP</title>
+        <company>Open Hardware DSP Platform - www.ohdsp.org</company>
+        <rev>1.1</rev>
+        <date>2019-03-17</date>
+        <source>ADAU1452.sch</source>
+        <comment number="1" value="MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE."/>
+        <comment number="2" value="is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF"/>
+        <comment number="3" value="Licensed under the TAPR Open Hardware License (www.tapr.org/OHL). This documentation"/>
+        <comment number="4" value="Copyright Paul Janicki 2019"/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Power Supply/" tstamps="/54DA50D9/">
+      <title_block>
+        <title>uDSP</title>
+        <company>Open Hardware DSP Platform - www.ohdsp.org</company>
+        <rev>1.1</rev>
+        <date>2019-03-17</date>
+        <source>PSU.sch</source>
+        <comment number="1" value="MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE."/>
+        <comment number="2" value="is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF"/>
+        <comment number="3" value="Licensed under the TAPR Open Hardware License (www.tapr.org/OHL). This documentation"/>
+        <comment number="4" value="Copyright Paul Janicki 2019"/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/SPDIF/" tstamps="/54E30917/">
+      <title_block>
+        <title>uDSP</title>
+        <company>Open Hardware DSP Platform - www.ohdsp.org</company>
+        <rev>1.1</rev>
+        <date>2019-03-17</date>
+        <source>SPDIF.sch</source>
+        <comment number="1" value="MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE."/>
+        <comment number="2" value="is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF"/>
+        <comment number="3" value="Licensed under the TAPR Open Hardware License (www.tapr.org/OHL). This documentation"/>
+        <comment number="4" value="Copyright Paul Janicki 2019"/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Connectors/" tstamps="/54E8D6A6/">
+      <title_block>
+        <title>uDSP</title>
+        <company>Open Hardware DSP Platform - www.ohdsp.org</company>
+        <rev>1.1</rev>
+        <date>2019-03-17</date>
+        <source>Connectors.sch</source>
+        <comment number="1" value="MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE."/>
+        <comment number="2" value="is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF"/>
+        <comment number="3" value="Licensed under the TAPR Open Hardware License (www.tapr.org/OHL). This documentation"/>
+        <comment number="4" value="Copyright Paul Janicki 2019"/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Reset-NCP308/" tstamps="/592AF00E/">
+      <title_block>
+        <title>uDSP</title>
+        <company>Open Hardware DSP Platform - www.ohdsp.org</company>
+        <rev>1.1</rev>
+        <date>2019-03-17</date>
+        <source>Reset-NCP308.sch</source>
+        <comment number="1" value="MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE."/>
+        <comment number="2" value="is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF"/>
+        <comment number="3" value="Licensed under the TAPR Open Hardware License (www.tapr.org/OHL). This documentation"/>
+        <comment number="4" value="Copyright Paul Janicki 2019"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U202">
+      <value>M95M01-RMN6TP</value>
+      <footprint>MyKiCadLibs-Footprints:IC_SOIC_8</footprint>
+      <fields>
+        <field name="Description">1 Mbit SPI Bus Serial EEPROM - 8 pin SOIC</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="IC-EEPROM-SPI" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>54DD878F</tstamp>
+    </comp>
+    <comp ref="TP201">
+      <value>PIN</value>
+      <footprint>MyKiCadLibs-Footprints:TP-1mm</footprint>
+      <libsource lib="MyKiCadLibs-Lib" part="PIN" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>561DC0C1</tstamp>
+    </comp>
+    <comp ref="TP202">
+      <value>PIN</value>
+      <footprint>MyKiCadLibs-Footprints:TP-1mm</footprint>
+      <libsource lib="MyKiCadLibs-Lib" part="PIN" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>561DC20E</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>22u</value>
+      <footprint>MyKiCadLibs-Footprints:CAP-SMD-SIZE-B</footprint>
+      <fields>
+        <field name="Description">Low impedance aluminium electrolytic capacitor - Panasonic FP, FK or Similar</field>
+        <field name="Type">Case B SMD Aluminium Electrolytic</field>
+        <field name="Voltage">6V3</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CP1" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>57114F85</tstamp>
+    </comp>
+    <comp ref="JP201">
+      <value>CONN_2x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_2_1MM</footprint>
+      <fields>
+        <field name="Description">1x2 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_2x1" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5718B00F</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>570FB6DA</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>10n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>570FB8A3</tstamp>
+    </comp>
+    <comp ref="C206">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>570FD2B4</tstamp>
+    </comp>
+    <comp ref="C207">
+      <value>10n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>570FD2BF</tstamp>
+    </comp>
+    <comp ref="C208">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5710298A</tstamp>
+    </comp>
+    <comp ref="C209">
+      <value>10n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>57102995</tstamp>
+    </comp>
+    <comp ref="C210">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>57103006</tstamp>
+    </comp>
+    <comp ref="C211">
+      <value>10n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>57103011</tstamp>
+    </comp>
+    <comp ref="C225">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5710AD24</tstamp>
+    </comp>
+    <comp ref="C215">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5710BAD4</tstamp>
+    </comp>
+    <comp ref="C216">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5710CEC5</tstamp>
+    </comp>
+    <comp ref="C217">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5710D5BC</tstamp>
+    </comp>
+    <comp ref="C218">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5710DC41</tstamp>
+    </comp>
+    <comp ref="C233">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>57110C8C</tstamp>
+    </comp>
+    <comp ref="C212">
+      <value>5n6</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>571324E3</tstamp>
+    </comp>
+    <comp ref="C213">
+      <value>150p</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">5%</field>
+        <field name="Type">C0G</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>571333EF</tstamp>
+    </comp>
+    <comp ref="R205">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>570E7A65</tstamp>
+    </comp>
+    <comp ref="R206">
+      <value>4k3</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>570FC532</tstamp>
+    </comp>
+    <comp ref="P201">
+      <value>CONN_4x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_4_1MM</footprint>
+      <fields>
+        <field name="Description">1x4 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_4x1" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C17EFCF</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>ADAU1452WBCPZ</value>
+      <footprint>MyKiCadLibs-Footprints:IC-LFCSP72-HANDFIT</footprint>
+      <fields>
+        <field name="Description">SigmaDSP Digital Audio Processor - Use ADAU1462, ADAU1466, ADAU1452, ADAU1451, or ADAU1450</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="IC-DSP-ADAU1452WBCPZ" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>54BE9DB4</tstamp>
+    </comp>
+    <comp ref="TR201">
+      <value>NJT4030PT3G</value>
+      <footprint>MyKiCadLibs-Footprints:IC-SOT-223</footprint>
+      <fields>
+        <field name="Description">On Semi NJT4030PT3G PNP Transistor (min 2W, 200hFE, 2A)</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="TRAN-PNP-NJT4030P" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C6312B0</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C624034</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C64367D</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C662CD2</tstamp>
+    </comp>
+    <comp ref="C222">
+      <value>33p</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">5%</field>
+        <field name="Type">C0G</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C625097</tstamp>
+    </comp>
+    <comp ref="C227">
+      <value>33p</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">5%</field>
+        <field name="Type">C0G</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C625AEB</tstamp>
+    </comp>
+    <comp ref="R219">
+      <value>100</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C625F66</tstamp>
+    </comp>
+    <comp ref="C230">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C76DED0</tstamp>
+    </comp>
+    <comp ref="R221">
+      <value>N/F</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C76EECC</tstamp>
+    </comp>
+    <comp ref="R225">
+      <value>N/F</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C76F572</tstamp>
+    </comp>
+    <comp ref="R216">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C7DD7E1</tstamp>
+    </comp>
+    <comp ref="R217">
+      <value>10K</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C7F856F</tstamp>
+    </comp>
+    <comp ref="R220">
+      <value>10K</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C7F8990</tstamp>
+    </comp>
+    <comp ref="R218">
+      <value>N/F</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C7F8A7D</tstamp>
+    </comp>
+    <comp ref="R223">
+      <value>10K</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C7FA374</tstamp>
+    </comp>
+    <comp ref="R208">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C7FB6C0</tstamp>
+    </comp>
+    <comp ref="R209">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C830F46</tstamp>
+    </comp>
+    <comp ref="R210">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C830FDE</tstamp>
+    </comp>
+    <comp ref="R211">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C831078</tstamp>
+    </comp>
+    <comp ref="R212">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C831114</tstamp>
+    </comp>
+    <comp ref="C229">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C868BF6</tstamp>
+    </comp>
+    <comp ref="C214">
+      <value>10u</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0805</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0805</field>
+        <field name="Tolerance">20%</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C89F47C</tstamp>
+    </comp>
+    <comp ref="R207">
+      <value>1K</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C677589</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>1K</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C6785BE</tstamp>
+    </comp>
+    <comp ref="X201">
+      <value>24M576</value>
+      <footprint>MyKiCadLibs-Footprints:XTAL_3.2x2.5_4PIN</footprint>
+      <fields>
+        <field name="Description">Crystal 3.2mm x 2.5mm - eg Abracon ASE-24.576MHZ-LC-T</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CRYSTAL_4PIN" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C670F75</tstamp>
+    </comp>
+    <comp ref="C219">
+      <value>100p</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">5%</field>
+        <field name="Type">NP0</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C7A9A70</tstamp>
+    </comp>
+    <comp ref="C228">
+      <value>100p</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">5%</field>
+        <field name="Type">NP0</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C7DED2D</tstamp>
+    </comp>
+    <comp ref="R213">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C8A08B5</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C73AA2D</tstamp>
+    </comp>
+    <comp ref="C220">
+      <value>10n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C75ED36</tstamp>
+    </comp>
+    <comp ref="C221">
+      <value>10u</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C86C91A</tstamp>
+    </comp>
+    <comp ref="C231">
+      <value>10u</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C8A0EDF</tstamp>
+    </comp>
+    <comp ref="C232">
+      <value>10u</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C8D62B7</tstamp>
+    </comp>
+    <comp ref="R214">
+      <value>1</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C8335E6</tstamp>
+    </comp>
+    <comp ref="R222">
+      <value>1</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/DSP/" tstamps="/54BE4270/"/>
+      <tstamp>5C84DFE0</tstamp>
+    </comp>
+    <comp ref="D302">
+      <value>LED 0603</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603-LED</footprint>
+      <fields>
+        <field name="Description">LED - SMD - Vf 1.8V to 2.2V</field>
+        <field name="Size">0603</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="LED" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>54E5948E</tstamp>
+    </comp>
+    <comp ref="MNT301">
+      <value>MNT_HOLE</value>
+      <footprint>MyKiCadLibs-Footprints:MNT_HOLE_3.2mm</footprint>
+      <fields>
+        <field name="Description">3.2mm mounting hole</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="MNT_HOLE" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>56E77C6A</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>TLV1117LV33DCY</value>
+      <footprint>MyKiCadLibs-Footprints:IC-SOT-223</footprint>
+      <fields>
+        <field name="Description">TLV1117LV 1-A, Positive Fixed-Voltage, Low-Dropout Regulator - Fixed 3V3</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="IC-REG-1117" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>56E95C33</tstamp>
+    </comp>
+    <comp ref="FID301">
+      <value>MNT_HOLE</value>
+      <footprint>MyKiCadLibs-Footprints:FID-1MM-3MM</footprint>
+      <fields>
+        <field name="Description">1mm fiducial</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="MNT_HOLE" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>56E9E8FD</tstamp>
+    </comp>
+    <comp ref="L301">
+      <value>600R@100MHz</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0805</footprint>
+      <fields>
+        <field name="Current">=&gt;2A</field>
+        <field name="Description">Ferrite bead, current rating 1A or higher, 600R@100MHz</field>
+        <field name="Size">0805</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="INDUCTOR" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>571725F8</tstamp>
+    </comp>
+    <comp ref="P301">
+      <value>CONN_2x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN-2WAY-2.54mm-3.81mm-SPACING</footprint>
+      <fields>
+        <field name="Description">2 way screw terminal, any 2.54mm to 3.81mm pitch part</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_2x1" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>57182425</tstamp>
+    </comp>
+    <comp ref="C303">
+      <value>22u</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0805</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0805</field>
+        <field name="Tolerance">20%</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>5714D585</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>470</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>570E4DCF</tstamp>
+    </comp>
+    <comp ref="D301">
+      <value>B240A</value>
+      <footprint>MyKiCadLibs-Footprints:DIODE-SMA</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">B240A 2A 40V Schottky Rectifier - SMA (DO-214AC)</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="SCHOTTKY_DIODE" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>57194B07</tstamp>
+    </comp>
+    <comp ref="MNT303">
+      <value>MNT_HOLE</value>
+      <footprint>MyKiCadLibs-Footprints:MNT_HOLE_3.2mm</footprint>
+      <fields>
+        <field name="Description">3.2mm mounting hole</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="MNT_HOLE" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>5C7F9D3F</tstamp>
+    </comp>
+    <comp ref="MNT302">
+      <value>MNT_HOLE</value>
+      <footprint>MyKiCadLibs-Footprints:MNT_HOLE_3.2mm</footprint>
+      <fields>
+        <field name="Description">3.2mm mounting hole</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="MNT_HOLE" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>5727A361</tstamp>
+    </comp>
+    <comp ref="MNT304">
+      <value>MNT_HOLE</value>
+      <footprint>MyKiCadLibs-Footprints:MNT_HOLE_3.2mm</footprint>
+      <fields>
+        <field name="Description">3.2mm mounting hole</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="MNT_HOLE" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>5727A63C</tstamp>
+    </comp>
+    <comp ref="FID303">
+      <value>MNT_HOLE</value>
+      <footprint>MyKiCadLibs-Footprints:FID-1MM-3MM</footprint>
+      <fields>
+        <field name="Description">1mm fiducial</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="MNT_HOLE" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>5727AC23</tstamp>
+    </comp>
+    <comp ref="FID302">
+      <value>MNT_HOLE</value>
+      <footprint>MyKiCadLibs-Footprints:FID-1MM-3MM</footprint>
+      <fields>
+        <field name="Description">1mm fiducial</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="MNT_HOLE" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>5727AF05</tstamp>
+    </comp>
+    <comp ref="FID304">
+      <value>MNT_HOLE</value>
+      <footprint>MyKiCadLibs-Footprints:FID-1MM-3MM</footprint>
+      <fields>
+        <field name="Description">1mm fiducial</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="MNT_HOLE" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>5727B1E9</tstamp>
+    </comp>
+    <comp ref="D303">
+      <value>1N5819HW</value>
+      <footprint>MyKiCadLibs-Footprints:DIODE-SOD-123</footprint>
+      <fields>
+        <field name="Description">1A 40V Schottky Rectifier - SOD-123</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="DIODE_1N5819HW" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>59B6C4C4</tstamp>
+    </comp>
+    <comp ref="D304">
+      <value>1N5819HW</value>
+      <footprint>MyKiCadLibs-Footprints:DIODE-SOD-123</footprint>
+      <fields>
+        <field name="Description">1A 40V Schottky Rectifier - SOD-123</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="DIODE_1N5819HW" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>59B6CC6A</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>100p</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">5%</field>
+        <field name="Type">NP0</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>5C763E2B</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>47</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>5C763E36</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>10u</value>
+      <footprint>MyKiCadLibs-Footprints:CAP-SMD-SIZE-B</footprint>
+      <fields>
+        <field name="Description">Low impedance aluminium electrolytic capacitor - Panasonic FP, FK or Similar</field>
+        <field name="Type">Case B SMD Aluminium Electrolytic</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CP1" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>5C7FE185</tstamp>
+    </comp>
+    <comp ref="C304">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>5C801F40</tstamp>
+    </comp>
+    <comp ref="C305">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>5C804FDD</tstamp>
+    </comp>
+    <comp ref="C307">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>5C80B9CF</tstamp>
+    </comp>
+    <comp ref="C306">
+      <value>22u</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">20%</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>5C814EC5</tstamp>
+    </comp>
+    <comp ref="C310">
+      <value>10u</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">20%</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/54DA50D9/"/>
+      <tstamp>5C815D5E</tstamp>
+    </comp>
+    <comp ref="P402">
+      <value>CONN_3x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_3_1MM</footprint>
+      <fields>
+        <field name="Description">1x3 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_3x1" description=""/>
+      <sheetpath names="/SPDIF/" tstamps="/54E30917/"/>
+      <tstamp>5C67F4A2</tstamp>
+    </comp>
+    <comp ref="P401">
+      <value>CONN_3x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_3_1MM</footprint>
+      <fields>
+        <field name="Description">1x3 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_3x1" description=""/>
+      <sheetpath names="/SPDIF/" tstamps="/54E30917/"/>
+      <tstamp>5C68C370</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>100p</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">5%</field>
+        <field name="Type">NP0</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/SPDIF/" tstamps="/54E30917/"/>
+      <tstamp>5C847A6B</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/SPDIF/" tstamps="/54E30917/"/>
+      <tstamp>5C848E8D</tstamp>
+    </comp>
+    <comp ref="R404">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/SPDIF/" tstamps="/54E30917/"/>
+      <tstamp>5C8495D9</tstamp>
+    </comp>
+    <comp ref="R405">
+      <value>10K</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/SPDIF/" tstamps="/54E30917/"/>
+      <tstamp>5C84A4B3</tstamp>
+    </comp>
+    <comp ref="C404">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/SPDIF/" tstamps="/54E30917/"/>
+      <tstamp>5C89ADB4</tstamp>
+    </comp>
+    <comp ref="C405">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/SPDIF/" tstamps="/54E30917/"/>
+      <tstamp>5C89BA63</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>10n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/SPDIF/" tstamps="/54E30917/"/>
+      <tstamp>5C8BB2DA</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>22u</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/SPDIF/" tstamps="/54E30917/"/>
+      <tstamp>5C81FB99</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>1</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/SPDIF/" tstamps="/54E30917/"/>
+      <tstamp>5C888E19</tstamp>
+    </comp>
+    <comp ref="U501">
+      <value>NB3L553</value>
+      <footprint>MyKiCadLibs-Footprints:IC_SOIC_8</footprint>
+      <fields>
+        <field name="Description">On Semi - 1:4 Clock Fanout Buffer</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="IC-CLK-FANOUT-NB3L553" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>55623333</tstamp>
+    </comp>
+    <comp ref="P505">
+      <value>CONN_02X05</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_DIL_2X5_BOX_1MM</footprint>
+      <fields>
+        <field name="Description">2x5 2.54mm pitch box header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_02X05" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>570CFFEC</tstamp>
+    </comp>
+    <comp ref="P506">
+      <value>CONN_3x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_3_1MM</footprint>
+      <fields>
+        <field name="Description">1x3 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_3x1" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C859FD1</tstamp>
+    </comp>
+    <comp ref="P507">
+      <value>CONN_3x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_3_1MM</footprint>
+      <fields>
+        <field name="Description">1x3 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_3x1" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5CA120DE</tstamp>
+    </comp>
+    <comp ref="P511">
+      <value>CONN_4x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_4_1MM</footprint>
+      <fields>
+        <field name="Description">1x4 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_4x1" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5CA6AB86</tstamp>
+    </comp>
+    <comp ref="P512">
+      <value>CONN_5x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_5_1MM</footprint>
+      <fields>
+        <field name="Description">1x5 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_5x1" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5CAC31ED</tstamp>
+    </comp>
+    <comp ref="P508">
+      <value>CONN_3x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_3_1MM</footprint>
+      <fields>
+        <field name="Description">1x3 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_3x1" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5D395374</tstamp>
+    </comp>
+    <comp ref="P513">
+      <value>CONN_5x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_5_1MM</footprint>
+      <fields>
+        <field name="Description">1x5 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_5x1" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5D9855EC</tstamp>
+    </comp>
+    <comp ref="P514">
+      <value>CONN_5x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_5_1MM</footprint>
+      <fields>
+        <field name="Description">1x5 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_5x1" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5D9856FC</tstamp>
+    </comp>
+    <comp ref="P515">
+      <value>CONN_5x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_5_1MM</footprint>
+      <fields>
+        <field name="Description">1x5 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_5x1" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5D985B24</tstamp>
+    </comp>
+    <comp ref="P501">
+      <value>CONN_5x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_5_1MM</footprint>
+      <fields>
+        <field name="Description">1x5 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_5x1" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5D985C60</tstamp>
+    </comp>
+    <comp ref="P502">
+      <value>CONN_5x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_5_1MM</footprint>
+      <fields>
+        <field name="Description">1x5 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_5x1" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5D9DB85B</tstamp>
+    </comp>
+    <comp ref="P503">
+      <value>CONN_5x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_5_1MM</footprint>
+      <fields>
+        <field name="Description">1x5 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_5x1" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5D9DBC1F</tstamp>
+    </comp>
+    <comp ref="P504">
+      <value>CONN_5x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_5_1MM</footprint>
+      <fields>
+        <field name="Description">1x5 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_5x1" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5D9DBD4F</tstamp>
+    </comp>
+    <comp ref="R520">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C83EC95</tstamp>
+    </comp>
+    <comp ref="R514">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C860210</tstamp>
+    </comp>
+    <comp ref="R515">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C8602C2</tstamp>
+    </comp>
+    <comp ref="R516">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C86036E</tstamp>
+    </comp>
+    <comp ref="R510">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C8716FA</tstamp>
+    </comp>
+    <comp ref="R511">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C871704</tstamp>
+    </comp>
+    <comp ref="R512">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C87170E</tstamp>
+    </comp>
+    <comp ref="R506">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C882222</tstamp>
+    </comp>
+    <comp ref="R507">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C88222C</tstamp>
+    </comp>
+    <comp ref="R508">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C882236</tstamp>
+    </comp>
+    <comp ref="R502">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C892D86</tstamp>
+    </comp>
+    <comp ref="R503">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C892D90</tstamp>
+    </comp>
+    <comp ref="R504">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C892D9A</tstamp>
+    </comp>
+    <comp ref="R519">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C8F74A1</tstamp>
+    </comp>
+    <comp ref="R518">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C8F754D</tstamp>
+    </comp>
+    <comp ref="R524">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C929F5E</tstamp>
+    </comp>
+    <comp ref="R523">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C929F72</tstamp>
+    </comp>
+    <comp ref="R522">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C929F7C</tstamp>
+    </comp>
+    <comp ref="R528">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C94BF16</tstamp>
+    </comp>
+    <comp ref="R527">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C94BF2A</tstamp>
+    </comp>
+    <comp ref="R526">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C94BF34</tstamp>
+    </comp>
+    <comp ref="R532">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C95CA79</tstamp>
+    </comp>
+    <comp ref="R531">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C95CA8D</tstamp>
+    </comp>
+    <comp ref="R530">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C95CA97</tstamp>
+    </comp>
+    <comp ref="R535">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C649F0A</tstamp>
+    </comp>
+    <comp ref="R544">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C67065D</tstamp>
+    </comp>
+    <comp ref="R545">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C6A2970</tstamp>
+    </comp>
+    <comp ref="R546">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C6A2A2A</tstamp>
+    </comp>
+    <comp ref="R547">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C6A2A34</tstamp>
+    </comp>
+    <comp ref="R548">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C6B352D</tstamp>
+    </comp>
+    <comp ref="R549">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C6B3537</tstamp>
+    </comp>
+    <comp ref="R550">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C6B3541</tstamp>
+    </comp>
+    <comp ref="R551">
+      <value>22</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C6B354B</tstamp>
+    </comp>
+    <comp ref="R501">
+      <value>1K</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C8035D9</tstamp>
+    </comp>
+    <comp ref="C503">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C8365CB</tstamp>
+    </comp>
+    <comp ref="P509">
+      <value>CONN_3x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_3_1MM</footprint>
+      <fields>
+        <field name="Description">1x3 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_3x1" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C7A6494</tstamp>
+    </comp>
+    <comp ref="C501">
+      <value>100p</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">5%</field>
+        <field name="Type">NP0</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C84AEEA</tstamp>
+    </comp>
+    <comp ref="R505">
+      <value>4K7</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C7BAA17</tstamp>
+    </comp>
+    <comp ref="R509">
+      <value>4K7</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C7CA1A3</tstamp>
+    </comp>
+    <comp ref="R513">
+      <value>4K7</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C7CA237</tstamp>
+    </comp>
+    <comp ref="R517">
+      <value>4K7</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C7CA307</tstamp>
+    </comp>
+    <comp ref="R521">
+      <value>4K7</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C7CA311</tstamp>
+    </comp>
+    <comp ref="R525">
+      <value>4K7</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C7CA31B</tstamp>
+    </comp>
+    <comp ref="P510">
+      <value>CONN_4x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_4_1MM</footprint>
+      <fields>
+        <field name="Description">1x4 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_4x1" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C7DA0B8</tstamp>
+    </comp>
+    <comp ref="C504">
+      <value>1n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C8DC481</tstamp>
+    </comp>
+    <comp ref="TP502">
+      <value>PIN</value>
+      <footprint>MyKiCadLibs-Footprints:TP-TH-1mm</footprint>
+      <libsource lib="MyKiCadLibs-Lib" part="PIN" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>561D76D9</tstamp>
+    </comp>
+    <comp ref="C502">
+      <value>22u</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C831F4A</tstamp>
+    </comp>
+    <comp ref="R533">
+      <value>1</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/54E8D6A6/"/>
+      <tstamp>5C89A1BC</tstamp>
+    </comp>
+    <comp ref="SW601">
+      <value>FSMSM</value>
+      <footprint>MyKiCadLibs-Footprints:SW_TACT_SMD_FSMSM</footprint>
+      <fields>
+        <field name="Description">3.5mm x 6mm SMD tactile switch - e.g. Alcoswitch FSMSM</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="SWITCH" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>57DA6BD2</tstamp>
+    </comp>
+    <comp ref="P601">
+      <value>CONN_2x1</value>
+      <footprint>MyKiCadLibs-Footprints:CONN_SIL_2_1MM</footprint>
+      <fields>
+        <field name="Description">1x2 2.54mm pitch pin header</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="CONN_2x1" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>57DA6C4A</tstamp>
+    </comp>
+    <comp ref="TP602">
+      <value>PIN</value>
+      <footprint>MyKiCadLibs-Footprints:TP-1mm</footprint>
+      <libsource lib="MyKiCadLibs-Lib" part="PIN" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>59B06A4A</tstamp>
+    </comp>
+    <comp ref="U601">
+      <value>NCP308SNADJT1G</value>
+      <footprint>MyKiCadLibs-Footprints:IC-SOT23-6</footprint>
+      <fields>
+        <field name="Description">On Semi NCP308SNADJT1G SOT-23-6 TSOP-6 Supervisor</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="IC-RST-NCP308" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>59C82394</tstamp>
+    </comp>
+    <comp ref="R601">
+      <value>18K7</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>5C60B211</tstamp>
+    </comp>
+    <comp ref="R602">
+      <value>10K</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>5C60CB5B</tstamp>
+    </comp>
+    <comp ref="C602">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>5C60E2AA</tstamp>
+    </comp>
+    <comp ref="C603">
+      <value>10n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>5C614C30</tstamp>
+    </comp>
+    <comp ref="C604">
+      <value>10n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>5C6160CB</tstamp>
+    </comp>
+    <comp ref="R604">
+      <value>100</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>5C61F3D0</tstamp>
+    </comp>
+    <comp ref="R606">
+      <value>100</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>5C6244D4</tstamp>
+    </comp>
+    <comp ref="R605">
+      <value>100</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>5C6258EC</tstamp>
+    </comp>
+    <comp ref="R603">
+      <value>2K2</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>5C627576</tstamp>
+    </comp>
+    <comp ref="C605">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>5C62929C</tstamp>
+    </comp>
+    <comp ref="C606">
+      <value>100n</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>5C62CF17</tstamp>
+    </comp>
+    <comp ref="R607">
+      <value>0</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>5C62EC04</tstamp>
+    </comp>
+    <comp ref="R608">
+      <value>2K2</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>5C77503F</tstamp>
+    </comp>
+    <comp ref="C601">
+      <value>10u</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Ceramic capacitor</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">20%</field>
+        <field name="Type">X5R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="C" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>5C81D216</tstamp>
+    </comp>
+    <comp ref="R609">
+      <value>N/F</value>
+      <footprint>MyKiCadLibs-Footprints:SMD-0603</footprint>
+      <fields>
+        <field name="Description">Thick or thin film resistor</field>
+        <field name="Power">63mW</field>
+        <field name="Size">0603</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="MyKiCadLibs-Lib" part="R" description=""/>
+      <sheetpath names="/Reset-NCP308/" tstamps="/592AF00E/"/>
+      <tstamp>5C9CBDD1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="MyKiCadLibs-Lib" part="C">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Voltage">V</field>
+        <field name="Type">X7R</field>
+        <field name="Description">Text description</field>
+        <field name="Tolerance">10%</field>
+        <field name="Size">Size</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="CONN_02X05">
+      <footprints>
+        <fp>Pin_Header_Straight_2X05</fp>
+        <fp>Pin_Header_Angled_2X05</fp>
+        <fp>Socket_Strip_Straight_2X05</fp>
+        <fp>Socket_Strip_Angled_2X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X05</field>
+        <field name="Description">Text description</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="CONN_2x1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2x1</field>
+        <field name="Description">Text description</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="CONN_3x1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_3x1</field>
+        <field name="Description">Text description</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="CONN_4x1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_4x1</field>
+        <field name="Description">Text description</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="CONN_5x1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_5x1</field>
+        <field name="Description">Text description</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="CP1">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+        <field name="Voltage">V</field>
+        <field name="Size">Pitch, Diameter</field>
+        <field name="Description">Text description</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="CRYSTAL_4PIN">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL_4PIN</field>
+        <field name="Footprint">MyKiCadLibs-Footprints:XTAL_3.2x2.5_4PIN</field>
+        <field name="Description">Text description</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="DIODE_1N5819HW">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE_1N5819HW</field>
+        <field name="Footprint">MyKiCadLibs-Footprints:DIODE-SOD-123</field>
+        <field name="Description">1A 40V Schottky Rectifier - SOD-123</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="IC-CLK-FANOUT-NB3L553">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IC-CLK-FANOUT-NB3L553</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd" type="input"/>
+        <pin num="2" name="Q0" type="input"/>
+        <pin num="3" name="Q1" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="ICLK" type="input"/>
+        <pin num="6" name="Q2" type="input"/>
+        <pin num="7" name="Q3" type="input"/>
+        <pin num="8" name="OE" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="IC-DSP-ADAU1452WBCPZ">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IC-DSP-ADAU1452WBCPZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DGND" type="input"/>
+        <pin num="2" name="IOVDD" type="input"/>
+        <pin num="3" name="VDRIVE" type="input"/>
+        <pin num="4" name="SPDIFIN" type="input"/>
+        <pin num="5" name="SPDIFOUT" type="input"/>
+        <pin num="6" name="AGND" type="input"/>
+        <pin num="7" name="AVDD" type="input"/>
+        <pin num="8" name="AUXADC0" type="input"/>
+        <pin num="9" name="AUXADC1" type="input"/>
+        <pin num="10" name="AUXADC2" type="input"/>
+        <pin num="11" name="AUXADC3" type="input"/>
+        <pin num="12" name="AUXADC4" type="input"/>
+        <pin num="13" name="AUXADC5" type="input"/>
+        <pin num="14" name="PGND" type="input"/>
+        <pin num="15" name="PVDD" type="input"/>
+        <pin num="16" name="PLLFILT" type="input"/>
+        <pin num="17" name="DGND" type="input"/>
+        <pin num="18" name="IOVDD" type="input"/>
+        <pin num="19" name="DGND" type="input"/>
+        <pin num="20" name="DVDD" type="input"/>
+        <pin num="21" name="XTALIN/MCLK" type="input"/>
+        <pin num="22" name="XTALOUT" type="input"/>
+        <pin num="23" name="CLKOUT" type="input"/>
+        <pin num="24" name="~RESET" type="input"/>
+        <pin num="25" name="DGND" type="input"/>
+        <pin num="26" name="SS_M/MP0" type="input"/>
+        <pin num="27" name="MOSI_M/MP1" type="input"/>
+        <pin num="28" name="SCL_M/SCLK_M/MP2" type="input"/>
+        <pin num="29" name="SDA_M/MISO_M/MP3" type="input"/>
+        <pin num="30" name="MISO/SDA" type="input"/>
+        <pin num="31" name="SCLK/SCL" type="input"/>
+        <pin num="32" name="MOSI/ADDR1" type="input"/>
+        <pin num="33" name="SS/ADDR0" type="input"/>
+        <pin num="34" name="SELFBOOT" type="input"/>
+        <pin num="35" name="DVDD" type="input"/>
+        <pin num="36" name="DGND" type="input"/>
+        <pin num="37" name="DGND" type="input"/>
+        <pin num="38" name="IOVDD" type="input"/>
+        <pin num="39" name="LRCLK_OUT0/MP4" type="input"/>
+        <pin num="40" name="BCLK_OUT0" type="input"/>
+        <pin num="41" name="SDATA_OUT0" type="input"/>
+        <pin num="42" name="LRCLK_OUT1/MP5" type="input"/>
+        <pin num="43" name="BCLK_OUT1" type="input"/>
+        <pin num="44" name="SDATA_OUT1" type="input"/>
+        <pin num="45" name="MP6" type="input"/>
+        <pin num="46" name="MP7" type="input"/>
+        <pin num="47" name="LRCLK_OUT2/MP8" type="input"/>
+        <pin num="48" name="BCLK_OUT2" type="input"/>
+        <pin num="49" name="SDATA_OUT2" type="input"/>
+        <pin num="50" name="LRCLK_OUT3/MP9" type="input"/>
+        <pin num="51" name="BCLK_OUT3" type="input"/>
+        <pin num="52" name="SDATA_OUT3" type="input"/>
+        <pin num="53" name="DVDD" type="input"/>
+        <pin num="54" name="DGND" type="input"/>
+        <pin num="55" name="DGND" type="input"/>
+        <pin num="56" name="IOVDD" type="input"/>
+        <pin num="57" name="BCLK_IN0" type="input"/>
+        <pin num="58" name="LRCLK_IN0/MP10" type="input"/>
+        <pin num="59" name="SDATA_IN0" type="input"/>
+        <pin num="60" name="BCLK_IN1" type="input"/>
+        <pin num="61" name="LRCLK_IN1/MP11" type="input"/>
+        <pin num="62" name="SDATA_IN1" type="input"/>
+        <pin num="63" name="THD_M" type="input"/>
+        <pin num="64" name="THD_P" type="input"/>
+        <pin num="65" name="BCLK_IN2" type="input"/>
+        <pin num="66" name="LRCLK_IN2/MP12" type="input"/>
+        <pin num="67" name="SDATA_IN2" type="input"/>
+        <pin num="68" name="BCLK_IN3" type="input"/>
+        <pin num="69" name="LRCLK_IN3/MP13" type="input"/>
+        <pin num="70" name="SDATA_IN3" type="input"/>
+        <pin num="71" name="DVDD" type="input"/>
+        <pin num="72" name="DGND" type="input"/>
+        <pin num="EP1" name="EP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="IC-EEPROM-SPI">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IC-EEPROM-SPI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS" type="input"/>
+        <pin num="2" name="SO" type="input"/>
+        <pin num="3" name="~WP" type="input"/>
+        <pin num="4" name="Vss" type="input"/>
+        <pin num="5" name="SI" type="input"/>
+        <pin num="6" name="SCK" type="input"/>
+        <pin num="7" name="~HOLD" type="input"/>
+        <pin num="8" name="Vcc" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="IC-REG-1117">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IC-REG-1117</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="OUT" type="input"/>
+        <pin num="3" name="IN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="IC-RST-NCP308">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IC-RST-NCP308</field>
+        <field name="Footprint">MyKiCadLibs-Footprints:IC-SOT23-6</field>
+        <field name="Description">On Semi NCP308 SOT-23-6 TSOP-6 Supervisor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~RESET" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="~MR" type="input"/>
+        <pin num="4" name="CT" type="input"/>
+        <pin num="5" name="SENSE" type="input"/>
+        <pin num="6" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+        <field name="Current">A</field>
+        <field name="Description">Text description</field>
+        <field name="Size">Size</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Description">Text description</field>
+        <field name="Size">Size</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="MNT_HOLE">
+      <fields>
+        <field name="Reference">MNT</field>
+        <field name="Value">MNT_HOLE</field>
+      </fields>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="PIN">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">PIN</field>
+        <field name="Description">Text description</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="R">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Power">mW</field>
+        <field name="Description">Text description</field>
+        <field name="Size">Size</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="SCHOTTKY_DIODE">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SCHOTTKY_DIODE</field>
+        <field name="Description">Text description</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="SWITCH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SWITCH</field>
+        <field name="Description">Text description</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyKiCadLibs-Lib" part="TRAN-PNP-NJT4030P">
+      <fields>
+        <field name="Reference">TR</field>
+        <field name="Value">TRAN-PNP-NJT4030P</field>
+        <field name="Footprint">MyKiCadLibs-Footprints:IC-SOT-223</field>
+        <field name="Description">On Semi NJT4030PT3G PNP Transistor (min 2W, 200hFE, 2A)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="MyKiCadLibs-Lib">
+      <uri>F:\Dropbox\OHDSP\DEV-uDSP\KiCad/../../../KiCad-Libs/MyKiCadLibs-Lib.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/OUT_LRCLK3">
+      <node ref="R530" pin="1"/>
+      <node ref="U201" pin="50"/>
+    </net>
+    <net code="2" name="/SPDIF_RX">
+      <node ref="U201" pin="4"/>
+      <node ref="R403" pin="2"/>
+    </net>
+    <net code="3" name="/SPDIF_TX">
+      <node ref="R404" pin="2"/>
+      <node ref="U201" pin="5"/>
+    </net>
+    <net code="4" name="/OUT_SDATA3">
+      <node ref="R532" pin="1"/>
+      <node ref="U201" pin="52"/>
+    </net>
+    <net code="5" name="/OUT_BCLK3">
+      <node ref="U201" pin="51"/>
+      <node ref="R531" pin="1"/>
+    </net>
+    <net code="6" name="/OUT_SDATA2">
+      <node ref="R528" pin="1"/>
+      <node ref="U201" pin="49"/>
+    </net>
+    <net code="7" name="/OUT_BCLK2">
+      <node ref="U201" pin="48"/>
+      <node ref="R527" pin="1"/>
+    </net>
+    <net code="8" name="/OUT_LRCLK2">
+      <node ref="U201" pin="47"/>
+      <node ref="R526" pin="1"/>
+    </net>
+    <net code="9" name="/AUXADC1">
+      <node ref="U201" pin="8"/>
+      <node ref="R505" pin="2"/>
+    </net>
+    <net code="10" name="/AUXADC5">
+      <node ref="R521" pin="2"/>
+      <node ref="U201" pin="12"/>
+    </net>
+    <net code="11" name="/AUXADC4">
+      <node ref="R517" pin="2"/>
+      <node ref="U201" pin="11"/>
+    </net>
+    <net code="12" name="/MCLK">
+      <node ref="R213" pin="2"/>
+      <node ref="U501" pin="5"/>
+    </net>
+    <net code="13" name="/AUXADC6">
+      <node ref="R525" pin="2"/>
+      <node ref="U201" pin="13"/>
+    </net>
+    <net code="14" name="/AUXADC3">
+      <node ref="R513" pin="2"/>
+      <node ref="U201" pin="10"/>
+    </net>
+    <net code="15" name="/AUXADC2">
+      <node ref="R509" pin="2"/>
+      <node ref="U201" pin="9"/>
+    </net>
+    <net code="16" name="/IN_BCLK2">
+      <node ref="R507" pin="2"/>
+      <node ref="U201" pin="65"/>
+    </net>
+    <net code="17" name="/IN_LRCLK2">
+      <node ref="R506" pin="2"/>
+      <node ref="U201" pin="66"/>
+    </net>
+    <net code="18" name="/IN_SDATA1">
+      <node ref="U201" pin="62"/>
+      <node ref="R512" pin="2"/>
+    </net>
+    <net code="19" name="/IN_BCLK1">
+      <node ref="R511" pin="2"/>
+      <node ref="U201" pin="60"/>
+    </net>
+    <net code="20" name="/IN_LRCLK1">
+      <node ref="R510" pin="2"/>
+      <node ref="U201" pin="61"/>
+    </net>
+    <net code="21" name="/IN_SDATA0">
+      <node ref="R516" pin="2"/>
+      <node ref="U201" pin="59"/>
+    </net>
+    <net code="22" name="/IN_SDATA2">
+      <node ref="R508" pin="2"/>
+      <node ref="U201" pin="67"/>
+    </net>
+    <net code="23" name="/IN_LRCLK3">
+      <node ref="R502" pin="2"/>
+      <node ref="U201" pin="69"/>
+    </net>
+    <net code="24" name="/IN_BCLK3">
+      <node ref="R503" pin="2"/>
+      <node ref="U201" pin="68"/>
+    </net>
+    <net code="25" name="/IN_SDATA3">
+      <node ref="U201" pin="70"/>
+      <node ref="R504" pin="2"/>
+    </net>
+    <net code="26" name="/OUT_LRCLK0">
+      <node ref="R518" pin="1"/>
+      <node ref="U201" pin="39"/>
+    </net>
+    <net code="27" name="/OUT_SDATA1">
+      <node ref="U201" pin="44"/>
+      <node ref="R524" pin="1"/>
+    </net>
+    <net code="28" name="/OUT_BCLK1">
+      <node ref="U201" pin="43"/>
+      <node ref="R523" pin="1"/>
+    </net>
+    <net code="29" name="/OUT_LRCLK1">
+      <node ref="U201" pin="42"/>
+      <node ref="R522" pin="1"/>
+    </net>
+    <net code="30" name="/OUT_SDATA0">
+      <node ref="U201" pin="41"/>
+      <node ref="R520" pin="1"/>
+    </net>
+    <net code="31" name="/OUT_BCLK0">
+      <node ref="U201" pin="40"/>
+      <node ref="R519" pin="1"/>
+    </net>
+    <net code="32" name="/SPI_M_CS1">
+      <node ref="R217" pin="1"/>
+      <node ref="P510" pin="1"/>
+      <node ref="R210" pin="2"/>
+      <node ref="U202" pin="1"/>
+    </net>
+    <net code="33" name="/GLB_RESET">
+      <node ref="P511" pin="2"/>
+      <node ref="R606" pin="2"/>
+      <node ref="C606" pin="1"/>
+    </net>
+    <net code="34" name="/SPI_M_MISO">
+      <node ref="R535" pin="2"/>
+      <node ref="U201" pin="29"/>
+      <node ref="R216" pin="1"/>
+    </net>
+    <net code="35" name="/SPI_M_MOSI">
+      <node ref="P510" pin="4"/>
+      <node ref="U202" pin="5"/>
+      <node ref="R209" pin="2"/>
+    </net>
+    <net code="36" name="/SPI_M_CLK">
+      <node ref="R208" pin="2"/>
+      <node ref="P510" pin="3"/>
+      <node ref="U202" pin="6"/>
+    </net>
+    <net code="37" name="/MAN_RESET">
+      <node ref="R607" pin="2"/>
+      <node ref="P505" pin="6"/>
+      <node ref="P509" pin="2"/>
+    </net>
+    <net code="38" name="/SPI_M_MUTE">
+      <node ref="P511" pin="3"/>
+      <node ref="R212" pin="2"/>
+    </net>
+    <net code="39" name="/SPI_M_CS2">
+      <node ref="R211" pin="2"/>
+      <node ref="P511" pin="1"/>
+    </net>
+    <net code="40" name="/DSP_RESET">
+      <node ref="C605" pin="1"/>
+      <node ref="U201" pin="24"/>
+      <node ref="R605" pin="2"/>
+      <node ref="TP602" pin="1"/>
+    </net>
+    <net code="41" name="/SPI_SS">
+      <node ref="P505" pin="9"/>
+      <node ref="P509" pin="1"/>
+      <node ref="R205" pin="1"/>
+    </net>
+    <net code="42" name="/SPI_MOSI">
+      <node ref="P508" pin="3"/>
+      <node ref="R204" pin="1"/>
+      <node ref="P505" pin="8"/>
+    </net>
+    <net code="43" name="/SPI_SCLK">
+      <node ref="R203" pin="1"/>
+      <node ref="P505" pin="7"/>
+      <node ref="P508" pin="2"/>
+    </net>
+    <net code="44" name="/SPI_MISO">
+      <node ref="P505" pin="5"/>
+      <node ref="R202" pin="1"/>
+      <node ref="P508" pin="1"/>
+    </net>
+    <net code="45" name="/IN_BCLK0">
+      <node ref="U201" pin="57"/>
+      <node ref="R515" pin="2"/>
+    </net>
+    <net code="46" name="/IN_LRCLK0">
+      <node ref="U201" pin="58"/>
+      <node ref="R514" pin="2"/>
+    </net>
+    <net code="47" name="/DSP/MOSI_ADDR1">
+      <node ref="U201" pin="32"/>
+      <node ref="R204" pin="2"/>
+    </net>
+    <net code="48" name="/DSP/SS_ADDR0">
+      <node ref="R205" pin="2"/>
+      <node ref="U201" pin="33"/>
+    </net>
+    <net code="49" name="/DSP/SCLK_SCL">
+      <node ref="U201" pin="31"/>
+      <node ref="R203" pin="2"/>
+    </net>
+    <net code="50" name="Net-(R212-Pad1)">
+      <node ref="R212" pin="1"/>
+      <node ref="U201" pin="45"/>
+    </net>
+    <net code="51" name="Net-(R211-Pad1)">
+      <node ref="R211" pin="1"/>
+      <node ref="U201" pin="46"/>
+    </net>
+    <net code="52" name="/DSP/XTALIN">
+      <node ref="C222" pin="1"/>
+      <node ref="R221" pin="1"/>
+      <node ref="U201" pin="21"/>
+      <node ref="X201" pin="1"/>
+    </net>
+    <net code="53" name="Net-(C213-Pad2)">
+      <node ref="R206" pin="2"/>
+      <node ref="U201" pin="16"/>
+      <node ref="C213" pin="2"/>
+    </net>
+    <net code="54" name="/DSP/MISO_SDA">
+      <node ref="R202" pin="2"/>
+      <node ref="U201" pin="30"/>
+    </net>
+    <net code="55" name="/DSP/PVDD">
+      <node ref="C212" pin="1"/>
+      <node ref="R214" pin="1"/>
+      <node ref="C225" pin="1"/>
+      <node ref="U201" pin="15"/>
+      <node ref="C221" pin="1"/>
+      <node ref="C219" pin="1"/>
+      <node ref="C213" pin="1"/>
+    </net>
+    <net code="56" name="Net-(C212-Pad2)">
+      <node ref="C212" pin="2"/>
+      <node ref="R206" pin="1"/>
+    </net>
+    <net code="57" name="Net-(R207-Pad2)">
+      <node ref="U201" pin="3"/>
+      <node ref="R207" pin="2"/>
+      <node ref="TR201" pin="1"/>
+    </net>
+    <net code="58" name="/DSP/SELFBOOT">
+      <node ref="U201" pin="34"/>
+      <node ref="JP201" pin="1"/>
+      <node ref="C220" pin="1"/>
+      <node ref="R201" pin="2"/>
+    </net>
+    <net code="59" name="GNDD">
+      <node ref="X201" pin="4"/>
+      <node ref="P401" pin="3"/>
+      <node ref="P505" pin="10"/>
+      <node ref="D304" pin="1"/>
+      <node ref="P301" pin="2"/>
+      <node ref="C303" pin="2"/>
+      <node ref="U301" pin="1"/>
+      <node ref="D302" pin="2"/>
+      <node ref="C301" pin="2"/>
+      <node ref="C302" pin="2"/>
+      <node ref="C304" pin="2"/>
+      <node ref="C305" pin="2"/>
+      <node ref="C310" pin="2"/>
+      <node ref="C306" pin="2"/>
+      <node ref="C307" pin="2"/>
+      <node ref="U201" pin="37"/>
+      <node ref="U201" pin="19"/>
+      <node ref="U201" pin="17"/>
+      <node ref="U201" pin="14"/>
+      <node ref="P512" pin="5"/>
+      <node ref="U201" pin="36"/>
+      <node ref="P511" pin="4"/>
+      <node ref="U201" pin="25"/>
+      <node ref="C209" pin="2"/>
+      <node ref="C204" pin="2"/>
+      <node ref="C205" pin="2"/>
+      <node ref="C206" pin="2"/>
+      <node ref="C502" pin="2"/>
+      <node ref="TP502" pin="1"/>
+      <node ref="P201" pin="1"/>
+      <node ref="P201" pin="3"/>
+      <node ref="C503" pin="2"/>
+      <node ref="P509" pin="3"/>
+      <node ref="C501" pin="2"/>
+      <node ref="C207" pin="2"/>
+      <node ref="C504" pin="2"/>
+      <node ref="P513" pin="5"/>
+      <node ref="U201" pin="1"/>
+      <node ref="P514" pin="5"/>
+      <node ref="P515" pin="5"/>
+      <node ref="U501" pin="4"/>
+      <node ref="C233" pin="2"/>
+      <node ref="C606" pin="2"/>
+      <node ref="C401" pin="2"/>
+      <node ref="C405" pin="2"/>
+      <node ref="C402" pin="2"/>
+      <node ref="C214" pin="2"/>
+      <node ref="C404" pin="2"/>
+      <node ref="X201" pin="2"/>
+      <node ref="P503" pin="5"/>
+      <node ref="C216" pin="2"/>
+      <node ref="P502" pin="5"/>
+      <node ref="C215" pin="2"/>
+      <node ref="C229" pin="2"/>
+      <node ref="P501" pin="5"/>
+      <node ref="C225" pin="2"/>
+      <node ref="C211" pin="2"/>
+      <node ref="C210" pin="2"/>
+      <node ref="JP201" pin="2"/>
+      <node ref="C208" pin="2"/>
+      <node ref="U601" pin="2"/>
+      <node ref="C201" pin="2"/>
+      <node ref="P504" pin="5"/>
+      <node ref="C217" pin="2"/>
+      <node ref="C218" pin="2"/>
+      <node ref="P402" pin="2"/>
+      <node ref="P601" pin="2"/>
+      <node ref="R225" pin="1"/>
+      <node ref="C230" pin="2"/>
+      <node ref="U202" pin="4"/>
+      <node ref="C602" pin="2"/>
+      <node ref="C603" pin="2"/>
+      <node ref="C604" pin="2"/>
+      <node ref="SW601" pin="2"/>
+      <node ref="U201" pin="54"/>
+      <node ref="U201" pin="55"/>
+      <node ref="C601" pin="2"/>
+      <node ref="U201" pin="6"/>
+      <node ref="C222" pin="2"/>
+      <node ref="C227" pin="2"/>
+      <node ref="U201" pin="72"/>
+      <node ref="U201" pin="EP1"/>
+      <node ref="C219" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="C221" pin="2"/>
+      <node ref="C231" pin="2"/>
+      <node ref="C228" pin="2"/>
+      <node ref="C220" pin="2"/>
+      <node ref="C605" pin="2"/>
+      <node ref="C232" pin="2"/>
+      <node ref="R602" pin="2"/>
+    </net>
+    <net code="60" name="Net-(R216-Pad2)">
+      <node ref="U202" pin="2"/>
+      <node ref="R218" pin="1"/>
+      <node ref="R216" pin="2"/>
+    </net>
+    <net code="61" name="Net-(R208-Pad1)">
+      <node ref="U201" pin="28"/>
+      <node ref="R208" pin="1"/>
+    </net>
+    <net code="62" name="Net-(R209-Pad1)">
+      <node ref="U201" pin="27"/>
+      <node ref="R209" pin="1"/>
+    </net>
+    <net code="63" name="Net-(R210-Pad1)">
+      <node ref="U201" pin="26"/>
+      <node ref="R210" pin="1"/>
+    </net>
+    <net code="64" name="/DSP/AVDD">
+      <node ref="U201" pin="7"/>
+      <node ref="C231" pin="1"/>
+      <node ref="C233" pin="1"/>
+      <node ref="R222" pin="1"/>
+      <node ref="C228" pin="1"/>
+    </net>
+    <net code="65" name="/DSP/MCLK_ADAU">
+      <node ref="R213" pin="1"/>
+      <node ref="U201" pin="23"/>
+    </net>
+    <net code="66" name="+3V3">
+      <node ref="U601" pin="6"/>
+      <node ref="R501" pin="1"/>
+      <node ref="R603" pin="1"/>
+      <node ref="C230" pin="1"/>
+      <node ref="P201" pin="4"/>
+      <node ref="U201" pin="2"/>
+      <node ref="C215" pin="1"/>
+      <node ref="U201" pin="38"/>
+      <node ref="R608" pin="1"/>
+      <node ref="U202" pin="8"/>
+      <node ref="R533" pin="2"/>
+      <node ref="U201" pin="18"/>
+      <node ref="R609" pin="1"/>
+      <node ref="R214" pin="2"/>
+      <node ref="C305" pin="1"/>
+      <node ref="R222" pin="2"/>
+      <node ref="U301" pin="2"/>
+      <node ref="C602" pin="1"/>
+      <node ref="C310" pin="1"/>
+      <node ref="R220" pin="2"/>
+      <node ref="R217" pin="2"/>
+      <node ref="C216" pin="1"/>
+      <node ref="R218" pin="2"/>
+      <node ref="D303" pin="1"/>
+      <node ref="D304" pin="2"/>
+      <node ref="C232" pin="1"/>
+      <node ref="R223" pin="2"/>
+      <node ref="R302" pin="1"/>
+      <node ref="C307" pin="1"/>
+      <node ref="C306" pin="1"/>
+      <node ref="TR201" pin="3"/>
+      <node ref="C218" pin="1"/>
+      <node ref="C601" pin="1"/>
+      <node ref="U201" pin="56"/>
+      <node ref="C217" pin="1"/>
+      <node ref="R201" pin="1"/>
+      <node ref="R401" pin="2"/>
+      <node ref="C229" pin="1"/>
+      <node ref="C214" pin="1"/>
+      <node ref="R207" pin="1"/>
+    </net>
+    <net code="67" name="+1V2">
+      <node ref="R601" pin="1"/>
+      <node ref="U201" pin="53"/>
+      <node ref="U201" pin="71"/>
+      <node ref="TR201" pin="2"/>
+      <node ref="U201" pin="20"/>
+      <node ref="C211" pin="1"/>
+      <node ref="C210" pin="1"/>
+      <node ref="C209" pin="1"/>
+      <node ref="C208" pin="1"/>
+      <node ref="C207" pin="1"/>
+      <node ref="C206" pin="1"/>
+      <node ref="C205" pin="1"/>
+      <node ref="C204" pin="1"/>
+      <node ref="C203" pin="1"/>
+      <node ref="U201" pin="35"/>
+      <node ref="C201" pin="1"/>
+    </net>
+    <net code="68" name="Net-(C227-Pad1)">
+      <node ref="C227" pin="1"/>
+      <node ref="R219" pin="2"/>
+      <node ref="X201" pin="3"/>
+    </net>
+    <net code="69" name="Net-(P201-Pad2)">
+      <node ref="P201" pin="2"/>
+      <node ref="R221" pin="2"/>
+      <node ref="R225" pin="2"/>
+    </net>
+    <net code="70" name="Net-(R223-Pad1)">
+      <node ref="R223" pin="1"/>
+      <node ref="U202" pin="7"/>
+    </net>
+    <net code="71" name="Net-(TP201-Pad1)">
+      <node ref="TP201" pin="1"/>
+      <node ref="U201" pin="64"/>
+    </net>
+    <net code="72" name="Net-(TP202-Pad1)">
+      <node ref="TP202" pin="1"/>
+      <node ref="U201" pin="63"/>
+    </net>
+    <net code="73" name="Net-(R220-Pad1)">
+      <node ref="R220" pin="1"/>
+      <node ref="U202" pin="3"/>
+    </net>
+    <net code="74" name="/DSP/XTALOUT">
+      <node ref="U201" pin="22"/>
+      <node ref="R219" pin="1"/>
+    </net>
+    <net code="75" name="Net-(D301-Pad2)">
+      <node ref="L301" pin="1"/>
+      <node ref="D301" pin="2"/>
+    </net>
+    <net code="76" name="Net-(D301-Pad1)">
+      <node ref="D301" pin="1"/>
+      <node ref="P301" pin="1"/>
+    </net>
+    <net code="77" name="Net-(C301-Pad1)">
+      <node ref="C301" pin="1"/>
+      <node ref="R301" pin="2"/>
+    </net>
+    <net code="78" name="Net-(D302-Pad1)">
+      <node ref="D302" pin="1"/>
+      <node ref="R302" pin="2"/>
+    </net>
+    <net code="79" name="VCC">
+      <node ref="D303" pin="2"/>
+      <node ref="L301" pin="2"/>
+      <node ref="C303" pin="1"/>
+      <node ref="C304" pin="1"/>
+      <node ref="C302" pin="1"/>
+      <node ref="R301" pin="1"/>
+      <node ref="U301" pin="3"/>
+    </net>
+    <net code="80" name="Net-(P401-Pad1)">
+      <node ref="R404" pin="1"/>
+      <node ref="P401" pin="1"/>
+    </net>
+    <net code="81" name="Net-(C403-Pad1)">
+      <node ref="R403" pin="1"/>
+      <node ref="C403" pin="1"/>
+    </net>
+    <net code="82" name="Net-(C403-Pad2)">
+      <node ref="P402" pin="3"/>
+      <node ref="R405" pin="1"/>
+      <node ref="C403" pin="2"/>
+    </net>
+    <net code="83" name="/SPDIF/SPDIF_3V3">
+      <node ref="P402" pin="1"/>
+      <node ref="P401" pin="2"/>
+      <node ref="C401" pin="1"/>
+      <node ref="R401" pin="1"/>
+      <node ref="C402" pin="1"/>
+      <node ref="C405" pin="1"/>
+      <node ref="C404" pin="1"/>
+      <node ref="R405" pin="2"/>
+    </net>
+    <net code="84" name="Net-(P504-Pad4)">
+      <node ref="P504" pin="4"/>
+      <node ref="R516" pin="1"/>
+    </net>
+    <net code="85" name="Net-(P505-Pad1)">
+      <node ref="P505" pin="1"/>
+    </net>
+    <net code="86" name="Net-(P505-Pad3)">
+      <node ref="P505" pin="3"/>
+    </net>
+    <net code="87" name="Net-(P504-Pad3)">
+      <node ref="P504" pin="3"/>
+      <node ref="R515" pin="1"/>
+    </net>
+    <net code="88" name="Net-(P503-Pad3)">
+      <node ref="P503" pin="3"/>
+      <node ref="R511" pin="1"/>
+    </net>
+    <net code="89" name="Net-(P502-Pad3)">
+      <node ref="P502" pin="3"/>
+      <node ref="R507" pin="1"/>
+    </net>
+    <net code="90" name="Net-(P501-Pad3)">
+      <node ref="R503" pin="1"/>
+      <node ref="P501" pin="3"/>
+    </net>
+    <net code="91" name="Net-(P502-Pad2)">
+      <node ref="R506" pin="1"/>
+      <node ref="P502" pin="2"/>
+    </net>
+    <net code="92" name="Net-(P504-Pad2)">
+      <node ref="R514" pin="1"/>
+      <node ref="P504" pin="2"/>
+    </net>
+    <net code="93" name="Net-(P503-Pad4)">
+      <node ref="P503" pin="4"/>
+      <node ref="R512" pin="1"/>
+    </net>
+    <net code="94" name="Net-(P503-Pad2)">
+      <node ref="P503" pin="2"/>
+      <node ref="R510" pin="1"/>
+    </net>
+    <net code="95" name="Net-(P502-Pad4)">
+      <node ref="P502" pin="4"/>
+      <node ref="R508" pin="1"/>
+    </net>
+    <net code="96" name="Net-(P501-Pad4)">
+      <node ref="P501" pin="4"/>
+      <node ref="R504" pin="1"/>
+    </net>
+    <net code="97" name="Net-(P512-Pad3)">
+      <node ref="P512" pin="3"/>
+      <node ref="R519" pin="2"/>
+    </net>
+    <net code="98" name="Net-(P515-Pad3)">
+      <node ref="R531" pin="2"/>
+      <node ref="P515" pin="3"/>
+    </net>
+    <net code="99" name="Net-(P514-Pad3)">
+      <node ref="P514" pin="3"/>
+      <node ref="R527" pin="2"/>
+    </net>
+    <net code="100" name="Net-(P513-Pad4)">
+      <node ref="R524" pin="2"/>
+      <node ref="P513" pin="4"/>
+    </net>
+    <net code="101" name="Net-(P513-Pad3)">
+      <node ref="R523" pin="2"/>
+      <node ref="P513" pin="3"/>
+    </net>
+    <net code="102" name="Net-(P513-Pad2)">
+      <node ref="R522" pin="2"/>
+      <node ref="P513" pin="2"/>
+    </net>
+    <net code="103" name="/Connectors/MCLKB1">
+      <node ref="P512" pin="1"/>
+      <node ref="R547" pin="2"/>
+    </net>
+    <net code="104" name="Net-(P510-Pad2)">
+      <node ref="P510" pin="2"/>
+      <node ref="R535" pin="1"/>
+    </net>
+    <net code="105" name="Net-(P512-Pad4)">
+      <node ref="R520" pin="2"/>
+      <node ref="P512" pin="4"/>
+    </net>
+    <net code="106" name="Net-(P512-Pad2)">
+      <node ref="P512" pin="2"/>
+      <node ref="R518" pin="2"/>
+    </net>
+    <net code="107" name="/Connectors/MCLKB2">
+      <node ref="R548" pin="2"/>
+      <node ref="P513" pin="1"/>
+    </net>
+    <net code="108" name="Net-(P515-Pad4)">
+      <node ref="R532" pin="2"/>
+      <node ref="P515" pin="4"/>
+    </net>
+    <net code="109" name="Net-(P515-Pad2)">
+      <node ref="R530" pin="2"/>
+      <node ref="P515" pin="2"/>
+    </net>
+    <net code="110" name="/Connectors/MCLKB4">
+      <node ref="R549" pin="2"/>
+      <node ref="P515" pin="1"/>
+    </net>
+    <net code="111" name="Net-(P514-Pad4)">
+      <node ref="P514" pin="4"/>
+      <node ref="R528" pin="2"/>
+    </net>
+    <net code="112" name="Net-(P514-Pad2)">
+      <node ref="P514" pin="2"/>
+      <node ref="R526" pin="2"/>
+    </net>
+    <net code="113" name="Net-(P501-Pad2)">
+      <node ref="R502" pin="1"/>
+      <node ref="P501" pin="2"/>
+    </net>
+    <net code="114" name="Net-(R547-Pad1)">
+      <node ref="R547" pin="1"/>
+      <node ref="R548" pin="1"/>
+      <node ref="U501" pin="6"/>
+    </net>
+    <net code="115" name="Net-(P507-Pad2)">
+      <node ref="P507" pin="2"/>
+      <node ref="R521" pin="1"/>
+    </net>
+    <net code="116" name="Net-(P507-Pad1)">
+      <node ref="P507" pin="1"/>
+      <node ref="R517" pin="1"/>
+    </net>
+    <net code="117" name="Net-(P506-Pad3)">
+      <node ref="P506" pin="3"/>
+      <node ref="R513" pin="1"/>
+    </net>
+    <net code="118" name="Net-(P506-Pad2)">
+      <node ref="P506" pin="2"/>
+      <node ref="R509" pin="1"/>
+    </net>
+    <net code="119" name="Net-(P506-Pad1)">
+      <node ref="P506" pin="1"/>
+      <node ref="R505" pin="1"/>
+    </net>
+    <net code="120" name="Net-(R546-Pad1)">
+      <node ref="U501" pin="7"/>
+      <node ref="R549" pin="1"/>
+      <node ref="R546" pin="1"/>
+    </net>
+    <net code="121" name="Net-(C504-Pad1)">
+      <node ref="C504" pin="1"/>
+      <node ref="U501" pin="8"/>
+      <node ref="R501" pin="2"/>
+    </net>
+    <net code="122" name="Net-(P505-Pad4)">
+      <node ref="P505" pin="4"/>
+    </net>
+    <net code="123" name="Net-(P507-Pad3)">
+      <node ref="R525" pin="1"/>
+      <node ref="P507" pin="3"/>
+    </net>
+    <net code="124" name="Net-(R545-Pad1)">
+      <node ref="R550" pin="1"/>
+      <node ref="U501" pin="3"/>
+      <node ref="R545" pin="1"/>
+    </net>
+    <net code="125" name="/Connectors/MCLKA4">
+      <node ref="P501" pin="1"/>
+      <node ref="R551" pin="2"/>
+    </net>
+    <net code="126" name="/Connectors/MCLKA2">
+      <node ref="P503" pin="1"/>
+      <node ref="R550" pin="2"/>
+    </net>
+    <net code="127" name="/Connectors/MCLKA1">
+      <node ref="R545" pin="2"/>
+      <node ref="P504" pin="1"/>
+    </net>
+    <net code="128" name="/Connectors/MCLKA3">
+      <node ref="R544" pin="2"/>
+      <node ref="P502" pin="1"/>
+    </net>
+    <net code="129" name="Net-(R544-Pad1)">
+      <node ref="R544" pin="1"/>
+      <node ref="U501" pin="2"/>
+      <node ref="R551" pin="1"/>
+    </net>
+    <net code="130" name="/Connectors/MCLKB3">
+      <node ref="P514" pin="1"/>
+      <node ref="R546" pin="2"/>
+    </net>
+    <net code="131" name="Net-(C501-Pad1)">
+      <node ref="U501" pin="1"/>
+      <node ref="C502" pin="1"/>
+      <node ref="R533" pin="1"/>
+      <node ref="C501" pin="1"/>
+      <node ref="C503" pin="1"/>
+    </net>
+    <net code="132" name="Net-(P505-Pad2)">
+      <node ref="P505" pin="2"/>
+    </net>
+    <net code="133" name="Net-(C603-Pad1)">
+      <node ref="C603" pin="1"/>
+      <node ref="U601" pin="4"/>
+    </net>
+    <net code="134" name="Net-(R601-Pad2)">
+      <node ref="R602" pin="1"/>
+      <node ref="R601" pin="2"/>
+      <node ref="R609" pin="2"/>
+      <node ref="U601" pin="5"/>
+    </net>
+    <net code="135" name="Net-(R603-Pad2)">
+      <node ref="U601" pin="1"/>
+      <node ref="R605" pin="1"/>
+      <node ref="R606" pin="1"/>
+      <node ref="R603" pin="2"/>
+    </net>
+    <net code="136" name="Net-(C604-Pad1)">
+      <node ref="C604" pin="1"/>
+      <node ref="R608" pin="2"/>
+      <node ref="R604" pin="1"/>
+      <node ref="U601" pin="3"/>
+    </net>
+    <net code="137" name="Net-(P601-Pad1)">
+      <node ref="R607" pin="1"/>
+      <node ref="P601" pin="1"/>
+      <node ref="SW601" pin="1"/>
+      <node ref="R604" pin="2"/>
+    </net>
+  </nets>
+</export>

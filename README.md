@@ -1,5 +1,5 @@
 # [Open Hardware DSP Platform](www.ohdsp.org)
-## uDSP 1.0 
+## uDSP 1.1
 ### A 5cm x 5cm DSP board using Analog Device SigmaDSP devices
 ### Supports ADAU1466, ADAU1462, ADAU1452, ADAU1451, ADAU1450
 ### Selfboot and external control supported
@@ -12,6 +12,11 @@ Copyright Paul Janicki 2019
 Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
 
 This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+### Changelog
+1.1:
+Add CS1 and CS2 to SPI header - removed 3V3 power
+Add 3V3 monitor option to reset circuit
 
 ### What is this repository for?
 

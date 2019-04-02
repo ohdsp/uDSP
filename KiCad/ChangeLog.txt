@@ -1,0 +1,49 @@
+Schematic changelog revision 2.0:
+Changes jumpers from CN to JP designators (JP201,JP401)
+Change various 22uF to 10uF
+Removed R from all resistors values
+Change R234,R235 from 68ohm to 75ohm
+Replace NB3L553 supply inductors L501/L502 with resistors R584/R585 (still 0805 parts)
+General tidy up of schematics, part numbers, text etc.
+Change P304 from 5mm/5.08mm to smaller connector (same as other boards)
+Change D301,D302 to B240A
+Change D303,D305,D306,D307,D501-D512 to SS14
+Update connectors with 1mm holes
+Change PVDD filter resistor to inductor (L202)
+Change L302 to TYS50404R7N-10
+Change mounting holes and added fiducials
+Delete C259, C262, C255, C330,C332
+Change U302 to lower cost TLV1117LV33DCY fixed output regulator
+Added new SPI slave and master connector P511/P512
+Moved/added R227, R236, R248, R586 and R587
+Change C216 to 10uF
+Removed C202-C204
+Updated all parts with extra details/fields
+Change clock buffer pin orders
+
+PCB changelog revision 2.0:
+Added Master and Slave SPI connectors P511 and P512
+Moved EEPROM/SPI/I2C connectors
+Changed L501/L502 to R584/R585
+Silkscreen changes
+Renamed jumpers from CN to JP designators
+Fixed disconnected ground stitching vias
+Change D301 from SMB to SMA footprint
+Update all 2x5 header footprints with key
+Update all headers with 1mm holes
+Change PVDD 1R resistor to inductor (L202)
+Chage L302 to TYS50404R7N-10
+Change mounting holes
+Delete C259, C262, C255, C330,C332
+Update ADP2301 footprint with pin 1 indicator
+Change U302 to 1117 regulator
+Update design rules
+Added fiducials
+Change U302 to SOT223
+Moved/added R227, R236, R248, R586 and R587
+Moved reset switch, crystals and associatedparts
+Increase part spacing around U202
+Removed C202-C204
+Moved U502, U203, and surrounding parts
+Adjusted capacitor spacing around ADAU1452/U201
+Change clock buffer pin orders/relayout buffers
